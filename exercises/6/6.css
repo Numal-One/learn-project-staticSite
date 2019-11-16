@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------------FONTS----------------------------------------------- */
+@font-face {
+    font-family: 'MuseoSansCyrl-500';
+	src: url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.eot'); /* IE 9 Compatibility Mode */
+	src: url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.svg#museosanscyrl-500') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+/* -------------------------------HEADER-------------------------------------- */
+.present-chocco {
+    background-color: #61c4d9;
+    height: 650px;
+}
+
+.header {
+    width: 941px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-logo {
+    color: #ffffff;
+    font-family: "MuseoSansCyrl-500";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.navigation {
+   width: 634px;
+   
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation-list-itm {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-contact {
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.fa-phone-alt {
+    height: 15px;
+    width: 15px;
+    padding-bottom: 3px;
+}
+
