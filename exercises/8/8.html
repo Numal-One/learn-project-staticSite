@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="8.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="some-section"></section>
+  <section class="form">
+    <h1>Закажите доставку</h1>
+    <form action="" method="" class="form-delivery" name="form-delivery">
+      <section class="form-delivery__left">
+        <label class="form-delivery__name-area">
+          <div class="form-delivery__area-name">Имя</div>
+          <input type="text" name="name" class="form-delivery__name-input" required>
+        </label>
+        <label class="form-delivery__phone-area">
+          <div class="form-delivery__area-name">Телефон</div>
+          <input type="text" name='phone' class="form-delivery__phone-input" required>
+        </label>
+        <label class="form-delivery__street-area">
+          <div class="form-delivery__area-name">Улица</div>
+          <input type="text" name="street" class="form-delivery__street-input" required>
+        </label>
+        <label class="form-delivery__house-number-area">
+          <div class="form-delivery__area-name">Дом</div>
+          <input type="text" name="house-number" class="form-delivery__house-number-input" required>
+        </label>
+        <label class="form-delivery__house-building-area">
+          <div class="form-delivery__area-text">Корпус</div>
+          <input type="text" name="house-building" class="form-delivery__house-building-input" required>
+        </label>
+        <label class="form-delivery__apartment-number-area">
+          <div class="form-delivery__area-text">Квартира</div>
+          <input type="text" name='apartment-number' class="form-delivery__apartment-number-input" required>
+        </label>
+        <label class="form-delivery__floor-area">
+          <div class="form-delivery__area-text">Этаж</div>
+          <input type="text" name="floor" class="form-delivery__floor-input">
+        </label>
+      </section>
+
+      <seciton class="form-delivery__right">
+        <label class="form-delivery__comment-area">
+          <div class="form-delivery__area-text">Комментарий</div>
+            <textarea name="comment" class="form-delivery__comment-input"></textarea>
+        </label>
+        <fieldset class="form-delivery__radio-wrapper">
+            <label class="form-delivery__radio-cash-payment">
+              <input type="radio" name="payment" class="form-delivery__cash-payment" required>
+              <div class="form-delivery__area-text">Потребуется сдача</div>
+            </label>
+            <label class="form-delivery__radio-card-payment">
+              <input type="radio" name="payment" class="form-delivery__card-payment" required>
+              <div class="form-delivery__area-text">Оплата картой</div>
+            </label>
+        </fieldset>
+        <label class="form-delivery__checkbox-no-callback">
+          <input type="checkbox" name="no-callback" class="form-delivery__no-callback">
+          <div class="form-delivery__area-text">Не перезванивать</div>
+        </label>
+        <fieldset class="form-delivery__buttons-wrapper">
+          <button type="submit">Заказать</button>
+          <input type="reset" value="Очистить">
+        </fieldset>
+      </seciton>
+    </form>
+  </section>
+  <section class="some-section"></section>
+
+</body>
+</html>
