@@ -49,23 +49,33 @@
     list-style: none;
 }
 
-.navigation-list-itm {
+.navigation-list-itm a{
     cursor: pointer;
     color: #ffffff;
     font-family: "Alegreya Sans";
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    text-decoration: none;
 }
 
+/* Для значка телефонной трубки */
 .header-contact {
+    color: white;
+}
+
+/* для телефонного номера */
+.header-contact a{
     color: #ffffff;
     font-family: "Alegreya Sans";
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+
 
 .fa-phone-alt {
     height: 15px;
@@ -90,7 +100,7 @@
     justify-content: space-between; */
 }
 
-.present-left header h1{
+.present-left header h2{
     margin-top: 50px;
     color: #ffffff;
     font-family: "Alegreya Sans";
@@ -174,7 +184,7 @@
     padding-top: 100px;
 }
 
-.why-header h1 {
+.why-header h2 {
     text-align: center;
     color: #0d0d0d;
     font-family: "Alegreya Sans";
@@ -213,7 +223,7 @@ margin-top: 23px;
     margin: 0 auto;
 }
 
-.why-part h2 {
+.why-part h3 {
     color: #000000;
     font-family: "Alegreya Sans";
     font-size: 27px;
@@ -255,7 +265,7 @@ margin-top: 55px;
     margin-top: 130px;
 }
 
-.about-right header h1{
+.about-right header h2{
     color: #0d0d0d;
     font-family: "Alegreya Sans";
     font-size: 36px;
@@ -369,7 +379,7 @@ margin-top: 55px;
 
 }
 
-.our-team h1  {
+.our-team h2  {
 color: #0d0d0d;
 font-family: "Alegreya Sans";
 font-size: 48px;
