@@ -1,0 +1,86 @@
+@keyframes coin-rotate {
+  from {
+   transform: rotateY(0);
+  }
+  
+  15.15%{transform: rotateY(180deg);}
+ 
+  33% {
+    transform: rotateY(0);
+  }
+
+  to {
+    transform: rotateY(0);
+  }
+}
+
+
+@keyframes dots-large {
+  from, to {
+    bottom: -1px;
+    transform: rotateX(55deg);
+  }
+
+  10%, 90% {
+    bottom: 0px;
+    transform: rotateX(0);
+  }
+
+  45%, 55% {
+    bottom: 9px;
+    transform: rotateX(0);
+  }
+
+  50% {
+    bottom: 10px;
+    transform: rotateX(0);
+  }
+
+}
+
+@keyframes dots-small {
+  from, to {
+    bottom: -0;
+    opacity: 1;
+  }
+
+  20%, 80% {
+    bottom: -0;
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  45%{
+    bottom: -190px;
+    opacity: 0;
+  }
+
+  50% {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  55% {bottom: 190px;
+    opacity: 0;
+
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
