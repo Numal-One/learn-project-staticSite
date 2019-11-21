@@ -37,6 +37,7 @@
   list-style: none;
 }
 
+/* нижняя анимированная линия */
 .navigation-underline {
   height: 2px;
   width: 0%;
@@ -44,6 +45,7 @@
   transition: all ease  .3s ;
 }
 
+/* верхняя анимированная линия - контейнер */
 .navigation-upperline {
   position: absolute;
   height: 2px;
@@ -52,6 +54,7 @@
   bottom: 30px;
 }
 
+/* верхняя анимированная линия - закрывающий блок */
 .navigation-upperline-up {
   position: absolute;
   height: 2px;
@@ -61,6 +64,7 @@
   left: 0;
 }
 
+/* верхняя анимированная линия - нижний блок */
 .navigation-upperline-down {
   position: absolute;
   height: 2px;
@@ -235,10 +239,12 @@ margin-top: 23px;
   background-color: #ff8c00;
 }
 
+/* при наведении закрывающий блок сжимается до 0, открывая нижний */
 .navigation-list-itm>a:hover ~ .navigation-upperline>.navigation-upperline-up {
   width: 0%;
 }
 
+/* нижний блок только меняет цвет с белого на оранжевый */
 .navigation-list-itm>a:hover ~ .navigation-upperline>.navigation-upperline-down {
   background-color: #ff8c00;
 }
