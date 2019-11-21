@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Start-------- css из codepent */
+.bz-content {
+    box-sizing: content-box;
+}
+
+.bz-content *,
+.bz-content *::before,
+.bz-content *::after {
+    box-sizing: inherit;
+}
+  
+.bz-border {
+box-sizing: border-box;
+}
+
+.bz-border *,
+.bz-border *::before,
+.bz-border *::after {
+    box-sizing: inherit;
+}
+/*End-------------- css из codepent */
+
+
+
+.why-chocco {
+    height: 650px;
+    padding-top: 100px;
+}
+
+.why-header h2 {
+    text-align: center;
+    color: #0d0d0d;
+    font-family: "Alegreya Sans";
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.why-header p {
+color: #666666;
+font-family: "Alegreya Sans";
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+margin-top: 23px;
+}
+
+.why-parts {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.why-part {
+    width: 276px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.why-img-wrapper {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #f2f5f4;
+    padding: 25px;
+}
+
+.why-part h3 {
+    color: #000000;
+    font-family: "Alegreya Sans";
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.why-part p {
+    text-align: center;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.separator {
+   
+    margin-top: 55px;
+    
+}
+
+.separator__circle-wrapper {
+    height: 21px;
+    width: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.separator__circle{
+    background-color: #f2f5f4; 
+    border-radius: 50%; 
+}
+
+.separator__circle--small {
+    height: 10px;
+    width: 10px;
+    padding: 1px;
+}
+
+.separator__circle--large {
+    padding: 0 10px;
+    height: 21px;
+    width: 21px;
+}
