@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+i {
+    font-size: 70px;
+}
+
 /*Start-------- css из codepent */
 .bz-content {
     box-sizing: content-box;
@@ -66,12 +70,16 @@ margin-top: 23px;
 }
 
 .why-img-wrapper {
+    font-size: 70px;
     width: 125px;
     height: 125px;
     border-radius: 50%;
     margin: 0 auto;
     background-color: #f2f5f4;
     padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .why-part h3 {
