@@ -7,7 +7,7 @@ i {
     font-size: 70px;
 }
 
-/*Start-------- css из codepent */
+/*Start-------- css из codepen */
 .bz-content {
     box-sizing: content-box;
 }
@@ -27,7 +27,7 @@ box-sizing: border-box;
 .bz-border *::after {
     box-sizing: inherit;
 }
-/*End-------------- css из codepent */
+/*End-------------- css из codepen */
 
 
 
@@ -82,6 +82,8 @@ margin-top: 23px;
     align-content: center;
 }
 
+
+
 .why-part h3 {
     color: #000000;
     font-family: "Alegreya Sans";
@@ -125,7 +127,26 @@ margin-top: 23px;
 }
 
 .separator__circle--large {
-    padding: 0 10px;
-    height: 21px;
-    width: 21px;
+    padding: 10px;
+    height: 1px;
+    width: 1px;
+}
+
+/* стили для устранения влияния bz-border и bz-content - что бы все 
+выглядело одинаково*/
+
+.bz-content .why-img-wrapper {
+    width: 75px;
+    height: 75px;
+  }
+
+.bz-border .separator__circle-wrapper {
+    height: 41px;
+    width: 83px;
+   
+}
+
+.bz-border .separator__circle--small {
+    height: 12px;
+    width: 12px;
 }
