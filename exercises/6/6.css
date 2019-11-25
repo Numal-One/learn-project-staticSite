@@ -389,6 +389,7 @@ text-align: center;
 margin: 109px auto 0;
 }
 
+/* якорь для 11 задания */
 #team-header:target {
     animation-duration: 2s;
     animation-name: rubberBand;
