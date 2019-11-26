@@ -83,14 +83,14 @@
     position: relative;
 }
 
-.present-left {
+.present__present-left {
     width: 465px;
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
 }
 
-.present-left header h1{
+.present__left-heading{
     margin-top: 50px;
     color: #ffffff;
     font-family: "Alegreya Sans";
@@ -100,7 +100,7 @@
     text-transform: uppercase;
 }
 
-.present-left>p{
+.present__left-paragraph{
     color: #ffffff;
     font-family: "Alegreya Sans";
     font-size: 21px;
@@ -108,11 +108,12 @@
     margin-top: 22px;
 }
 
-.present-left .btn-wrapper{
+.present__present-left .btn-wrapper{
     margin-top: 32px;
 }
 
 .common-btn {
+    cursor: pointer;
     width: 156px;
     height: 58px;
     background-color: #ffffff;
@@ -126,19 +127,19 @@
     box-shadow: 1px 1px 12px -5px  black;
 }
 
-.present-left footer {
+.present__left-footer {
     display: flex;
     justify-content: space-between;
     margin-top: 68px;
 }
 
-.profit {
+.present__profit {
     display: flex;
     justify-content: space-between;
     align-items:center;
 }
 
-.profit p {
+.present__profit-paragraph {
     margin-left: 7px;
     color: #ffffff;
     font-family: "Alegreya Sans";
@@ -146,7 +147,7 @@
     font-weight: 400;
 }
 
-.present-right {
+.present__right-img {
     position: relative;
     left: 100px;
 }
@@ -161,7 +162,7 @@
     top: 156px;
 }
 
-.present-point {
+.present-points__itm {
     height: 7px;
     width: 7px;
     background-color: #fff;
@@ -177,10 +178,7 @@
     padding-top: 100px;
 }
 
-.why-header {
-}
-
-.why-header h1 {
+.why-chocco__heading {
     text-align: center;
     color: #0d0d0d;
     font-family: "Alegreya Sans";
@@ -189,7 +187,7 @@
     text-transform: uppercase;
 }
 
-.why-header p {
+.why-chocco__paragraph {
 color: #666666;
 font-family: "Alegreya Sans";
 font-size: 18px;
@@ -198,13 +196,13 @@ text-align: center;
 margin-top: 23px;
 }
 
-.why-parts {
+.why-chocco__parts {
     display: flex;
     justify-content: center;
     margin-top: 80px;
 }
 
-.why-part {
+.why-chocco__part {
     width: 276px;
     height: 262px;
     display: flex;
@@ -213,13 +211,13 @@ margin-top: 23px;
     justify-content: space-around;
 }
 
-.why-part img {
+.why-chocco__part-img {
     width: 125px;
     height: 125px;
     margin: 0 auto;
 }
 
-.why-part h2 {
+.why-chocco__heading {
     color: #000000;
     font-family: "Alegreya Sans";
     font-size: 27px;
@@ -227,7 +225,7 @@ margin-top: 23px;
     text-align: center;
 }
 
-.why-part p {
+.why-chocco__paragraph {
     text-align: center;
     color: #666666;
     font-family: "Alegreya Sans";
@@ -235,7 +233,7 @@ margin-top: 23px;
     font-weight: 300;
 }
 
-.separator img{
+.why-chocco__separator-img{
 margin-top: 55px;
 }
 
@@ -251,17 +249,17 @@ margin-top: 55px;
 
 }
 
-.about-left {
+.about-chocco__left {
     margin-top: 110px;
 }
 
-.about-right {
+.about-chocco__right {
     width: 353px;
     margin-left: 78px;
     margin-top: 130px;
 }
 
-.about-right header h1{
+.about-chocco__heading{
     color: #0d0d0d;
     font-family: "Alegreya Sans";
     font-size: 36px;
@@ -269,7 +267,7 @@ margin-top: 55px;
     text-transform: uppercase;
 }
 
-.about-right header+p{
+.about-chocco__composition{
     margin-top: 41px;
     color: #323232;
     font-family: "Alegreya Sans";
@@ -278,7 +276,7 @@ margin-top: 55px;
 
 }
 
-.about-right p+p{
+.about-chocco__description{
     margin-top: 33px;
     color: #666666;
     font-family: "Alegreya Sans";
@@ -286,33 +284,33 @@ margin-top: 55px;
     font-weight: 400;
 }
 
-.about-footer{
+.about-chocco__footer{
     margin-top: 51px;
 }
 
-.cal-and-weight {
+.about-chocco__cal-and-weight {
     display:flex;
     width: 100%;
 }
 
-.weight {
+.about-chocco__weight {
     margin-left: 54px;
 }
 
-.cal, .weight{
+.about-chocco__cal, .about-chocco__weight{
     color: #333333;
     font-family: "Alegreya Sans";
     font-size: 18px;
     font-weight: 400;
 }
 
-.price-and-order {
+.about-chocco__price-and-order {
     margin-top: 35px;
     display: flex;
     align-items: center;
 }
 
-.price {
+.about-chocco__price {
     color: #0d0d0d;
     font-family: "Alegreya Sans";
     font-size: 60px;
@@ -366,7 +364,7 @@ margin-top: 55px;
 
 }
 
-.our-team h1  {
+.our-team__heading  {
 color: #0d0d0d;
 font-family: "Alegreya Sans";
 font-size: 48px;
@@ -376,7 +374,7 @@ text-align: center;
 margin: 109px auto 0;
 }
 
-.team-member_wrapper {
+.our-team__members_wrapper {
 width: 956px;
 margin: 68px auto 0;
 display: flex;
@@ -426,7 +424,7 @@ justify-content: space-evenly;
     display: none;
 }
 
-.team-member__info-caption h5 {
+.team-member__position {
     color: #281e1e;
     font-family: "Alegreya Sans";
     font-size: 18px;
@@ -434,7 +432,7 @@ justify-content: space-evenly;
     text-align: center;
 }
 
-.team-member__info-caption p {
+.team-member__description {
     width: 223px;
     height: 38px;
     color: #666666;
