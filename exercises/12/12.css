@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* ------------------------------FONTS----------------------------------------------- */
+@font-face {
+    font-family: 'MuseoSansCyrl-500';
+	src: url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.eot'); /* IE 9 Compatibility Mode */
+	src: url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../../res/fonts/Museo_Sans_Cyrl_500/fonts/museosanscyrl-500.svg#museosanscyrl-500') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+/* -------------------------------HEADER-------------------------------------- */
+.present-chocco {
+    background-color: #61c4d9;
+    padding-bottom: 50px;
+    width: 100%;
+   
+}
+
+.header {
+    max-width: 941px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header__logo {
+    color: #ffffff;
+    font-family: "MuseoSansCyrl-500";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.navigation {
+    flex-grow: 1;
+    margin: 0 30px;
+}
+
+.navigation__list {
+    flex-grow: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation__list-itm {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.navigation__burger-menu {
+    display: none;
+}
+
+.header__contact {
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.fa-phone-alt {
+    height: 0.9375rem;
+    width: 0.9375rem;
+    padding-bottom: 3px;
+}
+
+/* -------------------------------------SECTION 1(PRESENTATION)------------------------------------------------------ */
+
+.present {
+    display: flex;
+    width: 941px;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.present__present-left {
+    width: 465px;
+  
+}
+
+.present__left-heading{
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-size: 3.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.present__left-paragraph{
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-size: 1.325rem;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.present__present-left .btn-wrapper{
+    margin-top: 32px;
+}
+
+.common-btn {
+    cursor: pointer;
+    width: 156px;
+    height: 58px;
+    background-color: #ffffff;
+    color: #0f5a47;
+    font-family: "Alegreya Sans";
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 12px -5px  black;
+}
+
+.present__left-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+.present__profit {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.present__profit-paragraph {
+    margin-left: 7px;
+    color: #ffffff;
+    font-family: "Alegreya Sans";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.present-points {
+    position: absolute;
+    height: 181px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    right: 0;
+    top: 156px;
+}
+
+.present-points__itm {
+    height: 7px;
+    width: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+
+/* -------------------------------------SECTION 2(WHY)------------------------------------------------------ */
+
+.why-chocco {
+    padding-bottom: 77px;
+    padding-top: 100px;
+}
+
+.why-chocco__heading {
+    text-align: center;
+    color: #0d0d0d;
+    font-family: "Alegreya Sans";
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.why-chocco__paragraph {
+color: #666666;
+font-family: "Alegreya Sans";
+font-size: 1.125rem;
+font-weight: 400;
+text-align: center;
+margin-top: 23px;
+}
+
+.why-chocco__parts {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.why-chocco__part {
+    width: 276px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.why-chocco__part-img {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+.why-chocco__part-heading {
+    color: #000000;
+    font-family: "Alegreya Sans";
+    font-size: 1.6875rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.why-chocco__paragraph {
+    text-align: center;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.why-chocco__separator-img{
+margin-top: 55px;
+margin-left: -15px;
+margin-right: -15px;
+}
+
+
+
+/* -------------------------------------SECTION 3(ABOUT)------------------------------------------------------ */
+
+.about-chocco {
+    display: flex;
+    justify-content: center;
+    background-color: #f8faf9;
+    padding-bottom: 69px;
+    z-index: -2;
+
+}
+
+.about-chocco__left {
+    margin-top: 110px;
+}
+
+.about-chocco__right {
+    width: 353px;
+    margin-left: 78px;
+    margin-top: 130px;
+}
+
+.about-chocco__heading{
+    color: #0d0d0d;
+    font-family: "Alegreya Sans";
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-chocco__composition{
+    margin-top: 41px;
+    color: #323232;
+    font-family: "Alegreya Sans";
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.about-chocco__description{
+    margin-top: 33px;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.about-chocco__footer{
+    margin-top: 51px;
+}
+
+.about-chocco__cal-and-weight {
+    display:flex;
+    width: 100%;
+}
+
+.about-chocco__weight {
+    margin-left: 54px;
+}
+
+.about-chocco__cal, .about-chocco__weight{
+    color: #333333;
+    font-family: "Alegreya Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.about-chocco__price-and-order {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.about-chocco__price {
+    color: #0d0d0d;
+    font-family: "Alegreya Sans";
+    font-size: 3.75rem;
+    font-weight: 300;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.order-btn-wrapper{
+    margin-left: 33px;
+}
+
+.common-btn--green {
+    color: #ffffff;
+    background-color: #0f5a47;
+}
+
+
+/* -------------------------------------SECTION 4(TEAM)------------------------------------------------------ */
+
+
+
+.berry_leaf_1{
+    position: relative;
+    z-index: -1;
+}
+
+.berry_leaf_1 img {
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.berry_leaf_1 img:nth-child(1){
+    top: -266px;
+}
+.berry_leaf_1 img:nth-child(2){
+    top: -66px;
+}
+
+.our-team {
+   position: relative;
+   padding-bottom: 84px;
+   
+}
+
+.our-team::after {
+    content:url(img/img-berries-4.png);
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    z-index: -20;
+
+}
+
+.our-team__heading  {
+color: #0d0d0d;
+font-family: "Alegreya Sans";
+font-size: 3rem;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+margin: 109px auto 0;
+}
+
+.our-team__members_wrapper {
+width: 956px;
+margin: 38px auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.team-member {
+    margin-top: 30px;
+}
+
+.team-member:nth-child(2n){
+    margin-top: 63px;
+}
+
+.team-member__info {
+    margin: 0 auto;
+}
+
+.team-member__img-wrapper{
+    width: 14rem;
+    height: 18rem;
+}
+
+.team-member__img{
+    width: 100%;
+}
+
+
+
+.team-member__info-name{
+    color: #323232;
+    font-family: "Alegreya Sans";
+    font-size: 1.3125rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 25px auto 0;
+}
+
+.team-member__info-name::after{
+    position: relative;
+    bottom: 2px;
+    color: green;
+    margin-left: 7px;
+}
+
+.team-member__info--closed .team-member__info-name::after {
+    content: url(img/arrow_1.svg);
+}
+.team-member__info--opened .team-member__info-name::after {
+    content: url(img/arrow_2.svg);
+}
+
+
+.team-member__info-caption{
+    margin-top: 5px;
+}
+
+.team-member__info-caption--hidden {
+    display: none;
+}
+
+.team-member__position {
+    color: #281e1e;
+    font-family: "Alegreya Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.team-member__description {
+    width: 13.9375rem;
+    color: #666666;
+    font-family: "Alegreya Sans";
+    font-size: 1.125rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/* ----------------------MEDIA--------------------------------- */
+
+@media screen and (max-width: 1010px) {
+   
+    .present__present-right {
+        order: -1;
+    }
+
+    .present {
+        flex-wrap: wrap;
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+
+    
+    .header__logo{
+        margin-left: 25px;
+    }
+
+    .navigation__list-itm {
+        display: none;
+    }
+
+    .header__contact{
+        display: none;
+    }
+
+    .navigation__burger-menu{
+        display:block;
+        font-size:40px;
+        margin-right: 26px;
+    }
+
+    .navigation {
+        flex-grow: 0;
+    }
+
+    .present {
+        width: 100%;
+    }
+
+    .present__present-left{
+        width: 95%;
+        padding: 0 5%;
+    }
+
+    .present__left-heading,
+    .present__left-paragraph {
+        text-align: center;
+    }
+
+    .present__present-left .btn-wrapper{
+        padding-top: 35px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .present__present-right{
+        max-width: 30rem;
+        width: 100%;
+    }
+
+    .present__right-img{
+        width: 100%;
+    }
+
+    .present-points {
+        display: none;
+    }
+
+    .why-chocco {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+
+    .why-chocco__parts{
+        flex-wrap: wrap;
+    }
+
+    .why-chocco__part {
+        margin-top: 47px;
+    }
+
+    .why-chocco__separator-img{
+        display: none;
+    }
+
+    .about-chocco{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-chocco__left {
+        max-width: 30rem;
+
+    }
+
+    .about-chocco__left-img {
+        width: 100%;
+    }
+
+    .about-chocco__right{
+        margin-left: 0;
+        margin-top: 72px;
+    }
+
+    .about-chocco__heading,
+    .about-chocco__composition,
+    .about-chocco__description {
+        text-align: center;
+    }
+
+    .about-chocco__composition {
+        margin-top: 20px;
+    }
+
+    .about-chocco__description {
+        margin-top: 26px;
+    }
+
+    .about-chocco__cal-and-weight,
+    .about-chocco__price-and-order {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .our-team__members_wrapper {
+        width: 100%;
+        padding: 0 15px;
+        max-width: 30rem;
+        flex-wrap: wrap;
+    }
+
+    .team-member{
+        width: 14rem;
+        min-width: 168px;
+    }
+
+    .team-member:nth-child(2n) {
+        margin-top: 30px;
+    }
+
+       
+
+}
+
+@media screen and (max-width: 768px){
+    html {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    html {
+        font-size: 12px;
+    }
+}
