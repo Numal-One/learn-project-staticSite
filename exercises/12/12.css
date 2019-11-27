@@ -23,6 +23,7 @@ html {
     background-color: #61c4d9;
     padding-bottom: 50px;
     width: 100%;
+    min-width: 320px;
    
 }
 
@@ -94,6 +95,7 @@ html {
     margin: 0 auto;
     justify-content: space-between;
     position: relative;
+    min-width: 320px;
 }
 
 .present__present-left {
@@ -186,6 +188,7 @@ html {
 .why-chocco {
     padding-bottom: 77px;
     padding-top: 100px;
+    min-width: 320px;
 }
 
 .why-chocco__heading {
@@ -259,6 +262,7 @@ margin-right: -15px;
     background-color: #f8faf9;
     padding-bottom: 69px;
     z-index: -2;
+    min-width: 320px;
 
 }
 
@@ -368,6 +372,7 @@ margin-right: -15px;
 .our-team {
    position: relative;
    padding-bottom: 84px;
+   min-width: 320px;
    
 }
 
