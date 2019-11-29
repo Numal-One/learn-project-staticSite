@@ -1,0 +1,320 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Starter Template</title>
+    <link rel="stylesheet" href="src/foundation.css" />
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+  <body>
+  <div class="grid-container full header">
+    <div class="grid-x header">
+      <div class="cell text-center">
+        <h2>HEADER</h2>
+      </div>
+    </div>
+    <div class="grid-x text-right ">
+      <div class="cell grid-margin-x">
+          <p><button class="button" data-open="call-order">Заказать звонок</button></p>
+          <div class="reveal" id="call-order" data-reveal>
+              <div class="grid-x grid-padding-y align-center">
+                  <div class="cell text-center">
+                    <h3>FORM</h3>
+                  </div>
+                  <div class="cell large-8 medium-10 small-12">
+                      <form>
+                        <div class="grid-container">
+                          <div class="grid-x grid-padding-x">
+                            <div class="small-6 medium-6 cell">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="small-6 medium-6 cell">
+                                <input type="text" placeholder="Phone" required>
+                            </div>
+                            <div class="small-12 medium-12 cell">
+                              <label>
+                                <input type="text" placeholder="E-mail" required>
+                              </label>
+                            </div>
+                            <div class="small-12 medium-12 cell">
+                              <div class="input-group">
+                                <span class="input-group-label">Заказать звонок</span>
+                                <select class="input-group-field" input-group-field required>
+                                  <option value="10">10:00 - 11:00</option>
+                                  <option value="11">11:00 - 12:00</option>
+                                  <option value="12">12:00 - 13:00</option>
+                                  <option value="13">13:00 - 14:00</option>
+                                </select>
+                              </div>
+                              <div class="small-12 medium-12 cell">
+                                  <input id="checkbox1" type="checkbox"><label for="checkbox1">Согласие на обработку персональных данных</label>
+                              </div>
+                              <div class="small-12 medium-12 cell text-center">
+                                <input type="submit" class="button" value="SEND">
+                                <button class="button secondary" data-close aria-label="Close modal" type="button">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                  </div>
+                </div>
+              <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container full">
+    <div class="grid-x grid-padding-x">
+      <div class="cell small-12 medium-3 large-2 small-order-2 medium-order-1 large-order-1 aside-nav">
+        <div class="grid-x">
+          <div class="cell">
+              <h3>Navigation</h3>
+          </div>
+        </div>
+          <ul class="menu large-vertical medium-vertical small-vertical">
+              <li class="is-active"><a href="#" >One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+              <li><a href="#">Four</a></li>
+            </ul>
+      </div>
+      <div class="cell small-12 medium-9 large-7 small-order-1 medium-order-2 large-order-2 main-content">
+          <div class="tabs-content" data-tabs-content="example-tabs">
+            <div class="grid-x">
+                <ul class="tabs" data-tabs id="example-tabs">
+                    <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Main</a></li>
+                    <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Form</a></li>
+                  </ul>
+            </div>
+              <div class="tabs-panel is-active" id="panel1">
+                  <div class="grid-x grid-padding-x grid-padding-y">
+                      <div class="cell small-12 medium-6 large-4">
+                          <div class="card">
+                              <div class="card-divider">
+                                Купи слона
+                              </div>
+                              <div class="card-section">
+                                <img class='' src="src/img/elephant.jpg">
+                                <h4>Слон</h4>
+                                <p class="text-justify">Слон редкий, полосатый. Кличка - Балдахин. Много лет содержался в клетке у иностранного торговца животными Карбофоса. Не выдержав побоев и обид сбежал. Долгое время скитался и, однажды, больной и голодный пришел к нам. Пограничники выходили слона и подарили нашему зоопарку.
+                                </p>
+                                <a href="about.html" class="button">Купить</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="cell small-12 medium-6 large-4">
+                          <div class="card">
+                              <div class="card-divider">
+                                Купи слона
+                              </div>
+                              <div class="card-section">
+                                <img src="src/img/elephant.jpg">
+                                <h4>Слон</h4>
+                                <p class="text-justify">Слон редкий, полосатый. Кличка - Балдахин. Много лет содержался в клетке у иностранного торговца животными Карбофоса. Не выдержав побоев и обид сбежал. Долгое время скитался и, однажды, больной и голодный пришел к нам. Пограничники выходили слона и подарили нашему зоопарку.
+                                </p>
+                                <a href="about.html" class="button">Купить</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="cell small-12 medium-6 large-4">
+                          <div class="card">
+                              <div class="card-divider">
+                                Купи слона
+                              </div>
+                              <div class="card-section">
+                                <img src="src/img/elephant.jpg">
+                                <h4>Слон</h4>
+                                <p class="text-justify">Слон редкий, полосатый. Кличка - Балдахин. Много лет содержался в клетке у иностранного торговца животными Карбофоса. Не выдержав побоев и обид сбежал. Долгое время скитался и, однажды, больной и голодный пришел к нам. Пограничники выходили слона и подарили нашему зоопарку.
+                                </p>
+                                <a href="about.html" class="button">Купить</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="cell small-12 medium-6 large-4">
+                          <div class="card">
+                              <div class="card-divider">
+                                Купи слона
+                              </div>
+                              <div class="card-section">
+                                <img src="src/img/elephant.jpg">
+                                <h4>Слон</h4>
+                                <p class="text-justify">Слон редкий, полосатый. Кличка - Балдахин. Много лет содержался в клетке у иностранного торговца животными Карбофоса. Не выдержав побоев и обид сбежал. Долгое время скитался и, однажды, больной и голодный пришел к нам. Пограничники выходили слона и подарили нашему зоопарку.
+                                </p>
+                                <a href="about.html" class="button">Купить</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="cell small-12 medium-6 large-4">
+                          <div class="card">
+                              <div class="card-divider">
+                                Купи слона
+                              </div>
+                              <div class="card-section">
+                                <img src="src/img/elephant.jpg">
+                                <h4>Слон</h4>
+                                <p class="text-justify">Слон редкий, полосатый. Кличка - Балдахин. Много лет содержался в клетке у иностранного торговца животными Карбофоса. Не выдержав побоев и обид сбежал. Долгое время скитался и, однажды, больной и голодный пришел к нам. Пограничники выходили слона и подарили нашему зоопарку.
+                                </p>
+                                <a href="about.html" class="button">Купить</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="cell small-12 medium-6 large-4">
+                          <div class="card">
+                              <div class="card-divider">
+                                Купи слона
+                              </div>
+                              <div class="card-section">
+                                <img src="src/img/elephant.jpg">
+                                <h4>Слон</h4>
+                                <p class="text-justify">Слон редкий, полосатый. Кличка - Балдахин. Много лет содержался в клетке у иностранного торговца животными Карбофоса. Не выдержав побоев и обид сбежал. Долгое время скитался и, однажды, больной и голодный пришел к нам. Пограничники выходили слона и подарили нашему зоопарку.
+                                </p>
+                                <a href="about.html" class="button">Купить</a>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="grid-x grid-padding-x grid-padding-y center pagination-links">
+                      <div class="cell">
+                        <nav aria-label="Pagination" >
+                          <ul class="pagination text-center">
+                            <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+                            <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                            <li><a href="#" aria-label="Page 2">2</a></li>
+                            <li><a href="#" aria-label="Page 3">3</a></li>
+                            <li><a href="#" aria-label="Page 4">4</a></li>
+                            <li class="ellipsis" aria-hidden="true"></li>
+                            <li><a href="#" aria-label="Page 12">12</a></li>
+                            <li><a href="#" aria-label="Page 13">13</a></li>
+                            <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+                          </ul>
+                          </nav>
+                      </div>
+                    </div>
+              </div>
+              <div class="tabs-panel" id="panel2">
+                  <div class="grid-x grid-padding-y align-center">
+                      <div class="cell text-center">
+                        <h3>FORM</h3>
+                      </div>
+                      <div class="cell large-8 medium-10 small-12">
+                          <form>
+                            <div class="grid-container">
+                              <div class="grid-x grid-padding-x">
+                                <div class="small-6 medium-6 cell">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="small-6 medium-6 cell">
+                                    <input type="text" placeholder="Phone" required>
+                                </div>
+                                <div class="small-12 medium-12 cell">
+                                  <label>
+                                    <input type="text" placeholder="E-mail" required>
+                                  </label>
+                                </div>
+                                <div class="small-12 medium-12 cell">
+                                  <div class="input-group">
+                                    <span class="input-group-label">Заказать звонок</span>
+                                    <select class="input-group-field" input-group-field required>
+                                      <option value="10">10:00 - 11:00</option>
+                                      <option value="11">11:00 - 12:00</option>
+                                      <option value="12">12:00 - 13:00</option>
+                                      <option value="13">13:00 - 14:00</option>
+                                    </select>
+                                  </div>
+                                  <div class="small-12 medium-12 cell">
+                                      <input id="checkbox1" type="checkbox"><label for="checkbox1">Согласие на обработку персональных данных</label>
+                                  </div>
+                                  <div class="small-12 medium-12 cell">
+                                    <input type="submit" class="button" value="SEND">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                      </div>
+                    </div>
+              </div>
+            </div>
+       
+        
+      </div>
+      <div class="cell small-12 medium-12 large-3 small-order-3 medium-order-3 large-order-3 aside-slider">
+          <div class="grid-x">
+            <div class="cell">
+                <h3>Slider</h3>
+            </div>
+          </div>
+          <div class="grid-x">
+            <div class="cell">
+                <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                    <div class="orbit-wrapper">
+                      <div class="orbit-controls">
+                        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                      </div>
+                      <ul class="orbit-container">
+                        <li class="is-active orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://picsum.photos/300/300?random=1" alt="Space">
+                            <figcaption class="orbit-caption">LoremPixum</figcaption>
+                          </figure>
+                        </li>
+                        <li class="orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://picsum.photos/300/300?random=2" alt="Space">
+                            <figcaption class="orbit-caption">LoremPixum</figcaption>
+                          </figure>
+                        </li>
+                        <li class="orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://picsum.photos/300/300?random=3" alt="Space">
+                            <figcaption class="orbit-caption">LoremPixum</figcaption>
+                          </figure>
+                        </li>
+                        <li class="orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://picsum.photos/300/300?random=4" alt="Space">
+                            <figcaption class="orbit-caption">LoremPixum</figcaption>
+                          </figure>
+                        </li>
+                      </ul>
+                    </div>
+                    <nav class="orbit-bullets">
+                      <button class="is-active" data-slide="0">
+                        <span class="show-for-sr">First slide details.</span>
+                        <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+                      </button>
+                      <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                      <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                      <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                    </nav>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container full footer">
+    <div class="grid-x">
+      <div class="cell text-center">
+        <h2>FOOTER</h2>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="src/vendor/jquery.js"></script>
+  <script src="src/vendor/what-input.js"></script>
+  <script src="src/vendor/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+  </body>
+</html>

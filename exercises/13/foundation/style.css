@@ -1,0 +1,28 @@
+/* .cell {
+  background-color: rgb(245, 196, 35);
+}
+
+.cell:nth-child(odd) {
+  background-color: rgb(187, 153, 40);
+} */
+
+.header,
+.footer {
+  background-color: rgb(70, 70, 70);
+}
+
+.aside-nav {
+  background-color: rgb(150, 150, 150);
+}
+
+.aside-slider {
+  background-color: rgb(150, 150, 150);
+}
+
+.pagination-links{
+  background-color: rgb(80, 80, 80);
+}
+
+.card p {
+  text-indent: 1rem;
+}
