@@ -25,18 +25,21 @@
                     <h3>FORM</h3>
                   </div>
                   <div class="cell large-8 medium-10 small-12">
-                      <form>
+                      <form data-abide novalidate>
                         <div class="grid-container">
                           <div class="grid-x grid-padding-x">
                             <div class="small-6 medium-6 cell">
                                 <input type="text" placeholder="Name" required>
+                                <span id="example4Error" class="form-error">Введите имя.</span>
                             </div>
                             <div class="small-6 medium-6 cell">
                                 <input type="text" placeholder="Phone" required>
+                                <span id="example4Error" class="form-error">Введите телефон.</span>
                             </div>
                             <div class="small-12 medium-12 cell">
                               <label>
                                 <input type="text" placeholder="E-mail" required>
+                                <span id="example4Error" class="form-error">Введите Ваш E-mail</span>
                               </label>
                             </div>
                             <div class="small-12 medium-12 cell">
@@ -50,7 +53,8 @@
                                 </select>
                               </div>
                               <div class="small-12 medium-12 cell">
-                                  <input id="checkbox1" type="checkbox"><label for="checkbox1">Согласие на обработку персональных данных</label>
+                                  <input id="checkbox2" type="checkbox" name="checkbox2" value ='Согласие на обработку персональных данных' required>
+                                  <label for="checkbox2">Согласие на обработку персональных данных</label>
                               </div>
                               <div class="small-12 medium-12 cell text-center">
                                 <input type="submit" class="button" value="SEND">
@@ -203,40 +207,44 @@
                         <h3>FORM</h3>
                       </div>
                       <div class="cell large-8 medium-10 small-12">
-                          <form>
-                            <div class="grid-container">
-                              <div class="grid-x grid-padding-x">
-                                <div class="small-6 medium-6 cell">
-                                    <input type="text" placeholder="Name" required>
-                                </div>
-                                <div class="small-6 medium-6 cell">
-                                    <input type="text" placeholder="Phone" required>
-                                </div>
-                                <div class="small-12 medium-12 cell">
-                                  <label>
-                                    <input type="text" placeholder="E-mail" required>
-                                  </label>
-                                </div>
-                                <div class="small-12 medium-12 cell">
-                                  <div class="input-group">
-                                    <span class="input-group-label">Заказать звонок</span>
-                                    <select class="input-group-field" input-group-field required>
-                                      <option value="10">10:00 - 11:00</option>
-                                      <option value="11">11:00 - 12:00</option>
-                                      <option value="12">12:00 - 13:00</option>
-                                      <option value="13">13:00 - 14:00</option>
-                                    </select>
+                          <form data-abide novalidate>
+                              <div class="grid-container">
+                                <div class="grid-x grid-padding-x">
+                                  <div class="small-6 medium-6 cell">
+                                      <input type="text" placeholder="Name" required>
+                                      <span id="example4Error" class="form-error">Введите имя.</span>
+                                  </div>
+                                  <div class="small-6 medium-6 cell">
+                                      <input type="text" placeholder="Phone" required>
+                                      <span id="example4Error" class="form-error">Введите телефон.</span>
                                   </div>
                                   <div class="small-12 medium-12 cell">
-                                      <input id="checkbox1" type="checkbox"><label for="checkbox1">Согласие на обработку персональных данных</label>
+                                    <label>
+                                      <input type="text" placeholder="E-mail" required>
+                                      <span id="example4Error" class="form-error">Введите Ваш E-mail</span>
+                                    </label>
                                   </div>
                                   <div class="small-12 medium-12 cell">
-                                    <input type="submit" class="button" value="SEND">
+                                    <div class="input-group">
+                                      <span class="input-group-label">Заказать звонок</span>
+                                      <select class="input-group-field" input-group-field required>
+                                        <option value="10">10:00 - 11:00</option>
+                                        <option value="11">11:00 - 12:00</option>
+                                        <option value="12">12:00 - 13:00</option>
+                                        <option value="13">13:00 - 14:00</option>
+                                      </select>
+                                    </div>
+                                    <div class="small-12 medium-12 cell">
+                                        <input id="checkbox1" type="checkbox" name="checkbox1" required>
+                                        <label for="checkbox1">Согласие на обработку персональных данных</label>
+                                    </div>
+                                    <div class="small-12 medium-12 cell text-center">
+                                      <input type="submit" class="button" value="SEND">
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </form>
+                            </form>
                       </div>
                     </div>
               </div>
