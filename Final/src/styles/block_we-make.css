@@ -2,8 +2,11 @@
   background-image: url(../img/we-make/background-we-make.png);
   background-position: 50%;
   background-size: cover;
-  padding-bottom: 1.875rem;
-
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   /* какая то хрень с пиксельной белой полоской сверху
   и слева, не знаю на сколько это критично */
   /* margin-left: -2px;
@@ -39,6 +42,7 @@
 .we-make_scroll-container {
   text-align: center;
   margin-top: 4.125rem;
+  padding-bottom: 2rem;
 }
 
 .we-make_scroll-arrow {
