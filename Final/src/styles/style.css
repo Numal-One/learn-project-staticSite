@@ -1,0 +1,45 @@
+@font-face{
+
+  font-family: 'LifeHack-medium';
+  
+  src: url('/Final/src/fonts/Lifehack Medium.otf');
+  
+  font-weight: normal;
+  
+  font-style: normal;
+  
+  }
+
+  @font-face{
+
+    font-family: 'Gagalin';
+    
+    src: url('/Final/src/fonts/Gagalin/Gagalin-Regular.otf');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+body {
+  font-family: Ubuntu;
+  font-size: 16px;
+  color: white;
+}
+
+
+/* ---------------MEDIA-------------------------------------- */
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 19px;
+  }
+  
+}
+
+
+@media screen and (min-width: 768px) {
+
+  
+}

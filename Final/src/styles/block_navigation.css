@@ -1,0 +1,33 @@
+
+.navigation {
+  flex-grow: 1;
+}
+
+.navigation_list {
+  display: none;
+  list-style: none;
+  justify-content: space-around;
+  max-width: 37rem;
+  margin: 0 auto;
+}
+
+
+.navigation_list-anchor{
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition-property: color;
+  transition-duration: .2s;
+  transition-timing-function: ease;
+}
+
+.navigation_list-anchor:hover {
+  color: #e45028;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation_list {
+    display: flex;
+  }
+}

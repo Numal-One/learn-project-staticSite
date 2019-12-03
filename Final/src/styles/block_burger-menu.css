@@ -1,0 +1,16 @@
+.burger-menu{
+  cursor: pointer;
+  margin-left: 1.875rem;
+  font-size: 1.5625rem;
+}
+
+.burger-menu:hover {
+  color: #ccc;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+}

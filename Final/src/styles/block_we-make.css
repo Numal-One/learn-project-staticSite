@@ -1,0 +1,70 @@
+.we-make {
+  background-image: url(../img/we-make/background-we-make.png);
+  background-position: 50%;
+  background-size: cover;
+  padding-bottom: 1.875rem;
+}
+
+.we-make_info {
+  max-width: calc(100% - 1rem);
+}
+
+.we-make_info-img {
+  max-width: calc(100% - 0.5rem);
+  display: block;
+  margin: 0 auto;
+}
+
+.we-make_info-head {
+  margin-top: 3.25rem;
+  text-align: center;
+  color: #f9b43b;
+  font-family: "Gagalin";
+  font-size: 4.0625rem;
+}
+
+.we-make_info-paragraph{
+  margin-top: 0.625rem;
+  text-align: center;
+  font-family: "LifeHack-medium";
+  font-size: 3.3125rem;
+}
+
+.we-make_scroll-container {
+  text-align: center;
+  margin-top: 4.125rem;
+}
+
+.we-make_scroll-arrow {
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 480px) {
+  
+  .we-make_scroll-arrow {
+    margin-top: 8rem;
+  }
+  .we-make_scroll-container {
+    text-align: center;
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .we-make_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .we-make_info-right {
+    margin-top: 2rem;
+  }
+
+  .we-make_scroll-container {
+    text-align: center;
+    margin-top: 4.125rem;
+  }
+}
