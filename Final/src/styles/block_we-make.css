@@ -67,10 +67,17 @@
 
   .we-make_info-right {
     margin-top: 2rem;
+    margin-left: 0.3rem;
   }
 
   .we-make_scroll-container {
     text-align: center;
     margin-top: 4.125rem;
   }
+
+  .we-make_info-paragraph,
+  .we-make_info-head{
+    text-align: left;
+  }
+   
 }
