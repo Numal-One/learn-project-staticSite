@@ -3,6 +3,12 @@
   background-position: 50%;
   background-size: cover;
   padding-bottom: 1.875rem;
+
+  /* какая то хрень с пиксельной белой полоской сверху
+  и слева, не знаю на сколько это критично */
+  /* margin-left: -2px;
+  margin-top: -2px;
+  width: calc(100%+4px); */
 }
 
 .we-make_info {
