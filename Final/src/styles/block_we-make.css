@@ -30,14 +30,14 @@
   text-align: center;
   color: #f9b43b;
   font-family: "Gagalin";
-  font-size: 4.0625rem;
+  font-size: 3.8rem;
 }
 
 .we-make_info-paragraph{
   margin-top: 0.625rem;
   text-align: center;
   font-family: "LifeHack-medium";
-  font-size: 3.3125rem;
+  font-size: 3.2125rem;
 }
 
 .we-make_scroll-container {
@@ -60,6 +60,13 @@
     text-align: center;
     margin-top: 8rem;
   }
+  .we-make_info-paragraph {
+    font-size: 3.3125rem;
+  }
+
+  .we-make_info-head{
+    font-size: 4.0625rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -72,7 +79,7 @@
 
   .we-make_info-right {
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: rem;
   }
 
   .we-make_scroll-container {
