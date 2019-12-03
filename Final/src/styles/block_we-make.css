@@ -16,6 +16,7 @@
 
 .we-make_info {
   max-width: calc(100% - 1rem);
+  margin: 0 auto;
 }
 
 .we-make_info-img {
