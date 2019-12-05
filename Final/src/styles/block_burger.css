@@ -53,7 +53,7 @@
 .burger__slide-price-and-order {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   margin-top: 26px;
 }
 
