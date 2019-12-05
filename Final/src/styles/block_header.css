@@ -9,11 +9,11 @@
 
 /* не вижу смысла переводить в rem т.к.
 размер лого всегда одинаковый. */
-.header_logo {
+.header__logo {
   height: 69px;
   width: 92px;
 }
 
-.header_logo-img {
+.header__logo-img {
   max-width: 100%;
 }

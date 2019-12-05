@@ -12,6 +12,13 @@
   transition: background-color ease 0.2s;
 }
 
+.button--anchor{
+  width: auto;
+  height: auto;
+  padding: 13px 15px;
+  text-decoration: none;
+}
+
 .button:hover {
   background-color: #c1401e;
 }

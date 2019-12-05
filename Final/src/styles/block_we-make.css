@@ -3,7 +3,7 @@
   background-position: 50%;
   background-size: cover;
   
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,18 +14,18 @@
   width: calc(100%+4px); */
 }
 
-.we-make_info {
+.we-make__info {
   max-width: calc(100% - 1rem);
   margin: 0 auto;
 }
 
-.we-make_info-img {
+.we-make__info-img {
   max-width: calc(100% - 0.5rem);
   display: block;
   margin: 0 auto;
 }
 
-.we-make_info-head {
+.we-make__info-head {
   margin-top: 3.25rem;
   text-align: center;
   color: #f9b43b;
@@ -33,62 +33,62 @@
   font-size: 3.8rem;
 }
 
-.we-make_info-paragraph{
+.we-make__info-paragraph{
   margin-top: 0.625rem;
   text-align: center;
   font-family: "LifeHack-medium";
   font-size: 3.2125rem;
 }
 
-.we-make_scroll-container {
+.we-make__scroll-container {
   text-align: center;
   margin-top: 4.125rem;
   padding-bottom: 2rem;
 }
 
-.we-make_scroll-arrow {
+.we-make__scroll-arrow {
   cursor: pointer;
 }
 
 
 @media screen and (min-width: 480px) {
   
-  .we-make_scroll-arrow {
+  .we-make__scroll-arrow {
     margin-top: 8rem;
   }
-  .we-make_scroll-container {
+  .we-make__scroll-container {
     text-align: center;
     margin-top: 8rem;
   }
-  .we-make_info-paragraph {
+  .we-make__info-paragraph {
     font-size: 3.3125rem;
   }
 
-  .we-make_info-head{
+  .we-make__info-head{
     font-size: 4.0625rem;
   }
 }
 
 @media screen and (min-width: 768px) {
 
-  .we-make_info {
+  .we-make__info {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .we-make_info-right {
+  .we-make__info-right {
     margin-top: 2rem;
-    margin-left: rem;
+    margin-left: 2rem;
   }
 
-  .we-make_scroll-container {
+  .we-make__scroll-container {
     text-align: center;
     margin-top: 4.125rem;
   }
 
-  .we-make_info-paragraph,
-  .we-make_info-head{
+  .we-make__info-paragraph,
+  .we-make__info-head{
     text-align: left;
   }
    
