@@ -13,10 +13,10 @@
 }
 
 .button--anchor{
-  width: auto;
   height: auto;
   padding: 13px 15px;
   text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {

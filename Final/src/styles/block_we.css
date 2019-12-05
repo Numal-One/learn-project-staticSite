@@ -1,0 +1,114 @@
+.we {
+  background-image: url(../img/we/we-background.png);
+  background-position: 50%;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6.25rem 0;
+  box-sizing:border-box
+}
+
+.we__head {
+  color: #2f3234;
+  font-family: 'Gagalin';
+  font-size: 4.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.we__advantages{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.we__advantage-container{
+  display: flex;
+  width: calc(100% - 1rem);
+  align-items: center;
+  margin-top: 3.125rem;
+}
+
+.we__advantage-info{
+  margin-left: 1.25rem;
+}
+
+.we__advantage-head {
+  color: #2f3234;
+  font-family: 'LifeHack-medium';
+  font-size: 1.5rem;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.we__advantage-description{
+  opacity: 0.8;
+  color: #2f3234;
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin-top: 1.25rem;
+}
+
+
+.icon-meat {
+  font-size: 6.25rem;
+  color: red;
+}
+
+.icon-hand {
+  font-size: 6.25rem;
+  color: orange;
+}
+
+.icon-natural {
+  font-size: 6.25rem;
+  color:green;
+}
+
+
+@media screen and (min-width: 768px) {
+  .we{
+    padding-top: 12.7rem;
+  }
+
+  .we__advantage-container{
+    flex-direction: column;
+  }
+
+  .we__advantages{
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: space-between;
+  }
+
+  .we__advantage-container{
+    display: flex;
+    width: calc(33% - 1rem);
+    align-items: center;
+    margin-top: 2.65rem;
+  }
+
+  .we__advantage-info{
+    margin-top: 1.58rem;
+  }
+
+  .we__advantage-img {
+    align-items: center;
+  }
+
+  .we__advantage-head{
+    text-align: center;
+  }
+
+  .we__advantage-description{
+    text-align: center;
+    line-height: 1.27rem;
+  }
+
+
+
+ 
+}

@@ -1,0 +1,36 @@
+.product-composition {
+position: relative;
+height: 90px;
+width: 90px;
+}
+
+.product-composition__link{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(227, 80, 40, .4);
+  border-radius: 5px;
+}
+
+.product-composition__icon{
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  top: 10px;
+  left: -12px;
+  font-size: 35px;
+}
+
+.product-composition__text{
+  position: absolute;
+  color: white;
+  width: 100%;
+  display: block;
+  bottom: 15px;
+  text-align: center;
+  font-family: Gagalin;
+  font-size: 14px;
+  font-weight: 400;
+}

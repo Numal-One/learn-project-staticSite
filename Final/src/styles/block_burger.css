@@ -1,0 +1,163 @@
+.burger {
+  background-image: url(../img/burger/burger-background.png);
+  background-position: 50%;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6.25rem 0;
+  box-sizing:border-box;
+  position: relative;
+}
+
+.burger__slider-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 150px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.burger__slide-pic{
+  width: 90%;
+  text-align: center;
+}
+
+.burger__slide-img{
+  width: 100%;
+
+}
+
+.burger__slide-head {
+  font-family: Gagalin;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.burger__slide-description{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 24.02px;
+  margin-top: 36px;
+}
+
+.burger__slide-price-and-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.burger__slide-price{
+  margin-right: 30px;
+}
+
+.burger__slide-price-number,
+.burger__slide-price-rub{
+  color: #e35028;
+  font-family: Gagalin;
+  font-weight: 400;
+}
+
+.burger__slide-price-number{
+  font-size: 50px;
+  letter-spacing: -1.25px;
+}
+
+.burger__slide-price-rub{
+  font-size: 30px;
+  letter-spacing: -0.75px;
+}
+
+
+.burger__product-composition-wrapper{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.burger__product-calories-wrapper{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.burger__slider-forward,
+.burger__slider-back {
+  cursor: pointer;
+  width: 45px;
+  height: 30px;
+  color: white;
+  position: absolute;
+  top: calc(50% - 20px);
+}
+
+.burger__slider-forward{
+  right: 15px;
+  transform: rotate(-90deg);
+}
+
+.burger__slider-back{
+  transform: rotate(90deg);
+  left: 15px;
+}
+
+
+@media screen and (min-width: 480px) {
+  
+ 
+}
+
+@media screen and (min-width: 768px) {
+
+  .burger__slider-slide {
+    flex-direction: row;
+  }
+  .burger__slide-info{
+    width: 60%;
+  }
+
+  .burger__slide-head,
+  .burger__slide-description{
+    text-align: left;
+  }
+
+  .burger__slide-head{
+    font-size: 72px;
+  }
+  
+  .burger__slide-price-and-order {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .burger__slide-price-number{
+    font-size: 72px;
+  }
+
+  .burger__slide-price-rub{
+    font-size: 30px;
+  }
+
+  .burger__product-composition-wrapper{
+    top: 30px;
+    left: 10px;
+  }
+  
+  .burger__product-calories-wrapper{
+    top: 100%;
+    left: 10px;
+  }
+
+}
+
+

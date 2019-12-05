@@ -1,0 +1,43 @@
+.product-calories{
+  position: relative;
+  height: 90px;
+  width: 80px;
+  opacity: .8;
+}
+
+.product-calories__link{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.product-calories__icon{
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  top: -2px;
+  left: -6px;
+  font-size: 65px;
+}
+
+.product-calories__number,
+.product-calories__text{
+  position: absolute;
+  color: white;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: Gagalin;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.product-calories__number{
+  top: 35px;
+}
+
+.product-calories__text{
+  bottom: 0px;
+}
