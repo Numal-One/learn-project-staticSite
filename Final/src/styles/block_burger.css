@@ -2,7 +2,7 @@
   background-image: url(../img/burger/burger-background.png);
   background-position: 50%;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -19,7 +19,7 @@
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 9.3rem;
   box-sizing: border-box;
   position: relative;
 }
@@ -36,29 +36,29 @@
 
 .burger__slide-head {
   font-family: Gagalin;
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 400;
   text-align: center;
 }
 
 .burger__slide-description{
   font-family: Ubuntu;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   text-align: center;
-  line-height: 24.02px;
-  margin-top: 36px;
+  line-height: 1.5rem;
+  margin-top: 2.25rem;
 }
 
 .burger__slide-price-and-order {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 26px;
+  margin-top: 1.625rem;
 }
 
 .burger__slide-price{
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 .burger__slide-price-number,
@@ -69,26 +69,26 @@
 }
 
 .burger__slide-price-number{
-  font-size: 50px;
+  font-size: 3.125rem;
   letter-spacing: -1.25px;
 }
 
 .burger__slide-price-rub{
-  font-size: 30px;
-  letter-spacing: -0.75px;
+  font-size: 1.875rem;
+  letter-spacing: -0.046rem;
 }
 
 
 .burger__product-composition-wrapper{
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 0.625rem;
+  left: 0.625rem;
 }
 
 .burger__product-calories-wrapper{
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 0.675rem;
+  left: calc(100% - 100px);
 }
 
 .burger__slider-forward,
@@ -102,13 +102,13 @@
 }
 
 .burger__slider-forward{
-  right: 15px;
+  right: 1rem;
   transform: rotate(-90deg);
 }
 
 .burger__slider-back{
   transform: rotate(90deg);
-  left: 15px;
+  left: 1rem;
 }
 
 
@@ -131,8 +131,9 @@
     text-align: left;
   }
 
-  .burger__slide-head{
-    font-size: 72px;
+  .burger__slide-head,
+  .burger__slide-price-number{
+    font-size: 4.5rem;
   }
   
   .burger__slide-price-and-order {
@@ -140,12 +141,8 @@
     justify-content: flex-start;
   }
 
-  .burger__slide-price-number{
-    font-size: 72px;
-  }
-
   .burger__slide-price-rub{
-    font-size: 30px;
+    font-size: 1.185rem;
   }
 
   .burger__product-composition-wrapper{
@@ -154,7 +151,7 @@
   }
   
   .burger__product-calories-wrapper{
-    top: 100%;
+    top: calc(100% - 70px);
     left: 10px;
   }
 
