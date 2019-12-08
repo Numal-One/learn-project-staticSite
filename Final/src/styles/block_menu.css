@@ -1,0 +1,151 @@
+.menu {
+  background-image: url(../img/menu/menu-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: stretch;
+  box-sizing:border-box;
+  position: relative;
+  z-index: 0;
+}
+
+
+
+.menu__head {
+  position: absolute;
+  font-family: Gagalin;
+  font-size: 72px;
+  font-weight: 400;
+  left: 30px;
+  top: 100px;
+  z-index: 1;
+}
+
+.menu__items-wrapper {
+  display: flex;
+  justify-content: flex-end;;
+}
+
+.menu__item{
+  z-index: 2;
+  display: flex;
+  height: 100%;
+}
+
+
+
+.menu__item:nth-child(1) .menu__item-head-cont{
+  background-image: url(../img/menu/menu-1.png);
+}
+
+.menu__item:nth-child(2) .menu__item-head-cont{
+  background-image: url(../img/menu/menu-2.png);
+}
+
+.menu__item:nth-child(3) .menu__item-head-cont{
+  background-image: url(../img/menu/menu-3.png);
+}
+
+
+.menu__item-head-cont{
+  cursor: pointer;
+  height: 100%;
+  width: 80px;
+  flex-basis: 80px;
+  flex-shrink: 0;
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+  text-shadow: 1px 1px black;
+  z-index: 3;
+}
+
+.menu__item-description-close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__item-head {
+  font-family: Gagalin;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.menu__item-description-cont{
+  position: relative;
+  display: none;
+}
+
+
+
+.menu__item-description{
+  background-color: rgba(0,0,0,.8);
+  height: 100%;
+  padding: 70px 30px 30px 30px;
+  box-sizing:border-box;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.menu__item-head {
+  left: 18px;
+  bottom: 30px;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  position: absolute;
+}
+
+.menu__item--active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.menu__item--active .menu__item-description-cont{
+  display: flex;
+}
+
+.menu__item--active .menu__item-head{
+  color: #f9b43b;
+}
+
+
+
+@media screen and (min-width: 480px) {
+  .menu__item--active {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+  }
+
+  .menu__item-description-close-btn {
+    display: none;
+  }
+ 
+}
+
+@media screen and (min-width: 768px) {
+  .menu__items-wrapper{
+    width: 80%;
+    max-width: 781px;
+  }
+
+ .menu__head {
+  left: 130px;
+}
+   
+}
