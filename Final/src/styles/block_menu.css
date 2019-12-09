@@ -18,10 +18,10 @@
 .menu__head {
   position: absolute;
   font-family: Gagalin;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 400;
-  left: 30px;
-  top: 100px;
+  left: 1.875rem;
+  top: 6.25rem;
   z-index: 1;
 }
 
@@ -55,7 +55,6 @@
   cursor: pointer;
   height: 100%;
   width: 80px;
-  flex-basis: 80px;
   flex-shrink: 0;
   background-position: 50%;
   background-size: cover;
@@ -66,15 +65,15 @@
 
 .menu__item-description-close-btn {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 1.25rem;
+  top: 1.25rem;
   color: white;
   cursor: pointer;
 }
 
 .menu__item-head {
   font-family: Gagalin;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
@@ -88,7 +87,7 @@
 .menu__item-description{
   background-color: rgba(0,0,0,.8);
   height: 100%;
-  padding: 70px 30px 30px 30px;
+  padding: 4.375rem 1.875rem 1.875rem 1.875rem;
   box-sizing:border-box;
   font-size: 14px;
   line-height: 24px;
@@ -96,7 +95,7 @@
 
 
 .menu__item-head {
-  left: 18px;
+  left: 12px;
   bottom: 30px;
   transform: rotate(-90deg);
   transform-origin: left top 0;
@@ -145,7 +144,7 @@
   }
 
  .menu__head {
-  left: 130px;
+  left: 8.125rem;
 }
    
 }

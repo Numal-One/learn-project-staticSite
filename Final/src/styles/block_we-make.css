@@ -2,7 +2,7 @@
   background-image: url(../img/we-make/background-we-make.png);
   background-position: 50%;
   background-size: cover;
-  
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

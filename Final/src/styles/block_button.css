@@ -9,7 +9,7 @@
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  transition: background-color ease 0.2s;
+  transition: background-color ease 0.1s;
 }
 
 .button--anchor{
@@ -22,4 +22,5 @@
 
 .button:hover {
   background-color: #c1401e;
+  box-shadow: 0 0 12px -2px black;
 }
