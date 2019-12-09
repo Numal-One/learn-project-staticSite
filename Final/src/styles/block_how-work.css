@@ -1,0 +1,46 @@
+.how-work {
+  background-image: url(../img/how-work/how-work-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 83px 0;
+  box-sizing:border-box;
+}
+
+.how-work__head {
+  color: #2f3234;
+  font-family: Gagalin;
+  font-size: 61px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.how-work__video-wrapper{
+  
+  width: 100%;
+}
+
+.how-work__video {
+  margin-top: 50px;
+  width: 80%;
+  height: 40vh;
+}
+
+
+@media screen and (min-width: 480px) {
+  .how-work__video {
+    margin-top: 100px;
+    height: 50vh;
+  }
+ 
+}
+
+@media screen and (min-width: 768px) {
+  .how-work__video {
+    margin-top: 150px;
+    height: 60vh;
+  }
+}
