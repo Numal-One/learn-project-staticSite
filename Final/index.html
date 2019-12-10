@@ -22,6 +22,9 @@
   <link rel="stylesheet" href="src/styles/block_reviews.css">
   <link rel="stylesheet" href="src/styles/block_how-work.css">
   <link rel="stylesheet" href="src/styles/block_contact-phone.css">
+  <link rel="stylesheet" href="src/styles/block_delivery-order.css">
+  <link rel="stylesheet" href="src/styles/block_form.css">
+  <link rel="stylesheet" href="src/styles/block_map.css">
   <link rel="stylesheet" href="src/styles/block_footer.css">
   
   <title>Mr.Burger</title>
@@ -138,7 +141,7 @@
             </div>
           </div>
         </section>
-        <section class="team__member team__member--opened">
+        <section class="team__member">
           <h3 class="team__member-head">Ричард Джеймс</h3>
           <div class="team__member-cart">
             <img src="https://picsum.photos/100?random=2" alt="team-member" class="team__member-img">
@@ -286,7 +289,47 @@
     <iframe class="how-work__video"  src="https://www.youtube.com/embed/zD-0y4sTx9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
 
-  <section style="height: 100px;"></section>
+  <section class="delivery-order">
+    <h2 class="delivery-order__head">Закажите доставку</h2>
+    <form action="" class="form" method="GET">
+      <section class="form__left">
+        <label class="form__label form__label-name">Имя<input class="form__input form__input-name" name = "name" type="text" required></label>
+        <label class="form__label form__label-phone">Телефон<input class="form__input form__input-phone" name = "phone" type="text" required></label>
+        <label class="form__label form__label-street">Улица<input class="form__input form__input-street" name = "street" type="text" required></label>
+        <label class="form__label form__label-house">Дом<input class="form__input form__input-house" name = "house" type="text" required></label>
+        <label class="form__label form__label-housing">Корпус<input class="form__input form__input-housing" name = "housing" type="text" required></label>
+        <label class="form__label form__label-apartament">Квартира<input class="form__input form__input-apartament" name = "apartament" type="text" required></label>
+        <label class="form__label form__label-floor">Этаж<input class="form__input form__input-floor" name = "floor" type="text" required></label>
+      </section>
+      <section class="form__right">
+        <label class="form__label form__label-comment">Комментарий<textarea class="form__input form__input-comment" name="comment" id="" cols="30" rows="10"></textarea></label>
+        <div class="form__payment-wrapper">
+          <label class="form__label form__label-card-pay">
+            <input class="form__input form__radio-card-pay" name = "payment" type="radio" value = 'card' required>
+            <div class="form__radio-label-text">Оплата&nbsp;по&nbsp;карте</div>
+          </label>
+          <label class="form__label form__label-cash-pay">
+            <input class="form__input form__radio-cash-pay" name = "payment" type="radio" value = 'cash' required>
+            <div class="form__radio-label-text">Потребуется&nbsp;сдача</div>
+          </label>
+        </div>
+        <label class="form__label form__label-recall">
+          <input class="form__input form__checkbox-recall" name = "noRecall" type="checkbox">
+          <div class="form__checkbox-label-text"> Не&nbsp;перезванивать</div>
+        </label>
+        <div class="form__button-wrapper">
+          <button class="button">Заказать</button>
+          <button type="reset" class="button button--clear" >Очистить</button>
+        </div>
+      </section>
+    </form>
+  </section>
+
+  <section class="map">
+
+  </section>
+
+
   <footer class="footer">
     <div class="footer__info">
       <p class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</p>

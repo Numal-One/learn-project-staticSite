@@ -1,0 +1,6 @@
+.map {
+  background-image: url(../img/map/map-background.png);
+  background-position: 50%;
+  background-size: cover;
+  height: 100vh;
+}

@@ -25,6 +25,12 @@
   background-color: #2f3234;
 }
 
+.button--clear {
+  background-color: rgba(90,90,90,0);
+  text-transform: none;
+  font-size: 14px;
+}
+
 .button:hover {
   background-color: #c1401e;
   box-shadow: 0 0 12px -2px black;
@@ -32,4 +38,10 @@
 
 .button--gray:hover {
   background-color: #1f2122;
+}
+
+.button--clear:hover{
+  color:#e45028;
+  background-color: rgba(90,90,90,0);
+  box-shadow: none;
 }
