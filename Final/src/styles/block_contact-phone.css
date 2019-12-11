@@ -6,4 +6,9 @@
     text-decoration: none;
 }
 
+.contact-phone__number:hover{
+    color: white;
+    text-decoration: none;
+}
+
 
