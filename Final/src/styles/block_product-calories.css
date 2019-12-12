@@ -22,6 +22,10 @@
   font-size: 65px;
 }
 
+.product-calories:hover *{
+  color: #eee;
+}
+
 .product-calories__number,
 .product-calories__text{
   position: absolute;

@@ -6,14 +6,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 83px 0;
+  padding: 5.1875rem 0;
   box-sizing:border-box;
 }
 
 .how-work__head {
   color: #2f3234;
   font-family: Gagalin;
-  font-size: 61px;
+  font-size: 3.8125rem;
   text-align: center;
   font-weight: 400;
 }
@@ -24,7 +24,7 @@
 }
 
 .how-work__video {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   width: 80%;
   height: 40vh;
 }
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 480px) {
   .how-work__video {
-    margin-top: 100px;
+    margin-top: 7.25rem;
     height: 50vh;
   }
  
@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 768px) {
   .how-work__video {
-    margin-top: 150px;
+    margin-top: 8.375rem;
     height: 60vh;
   }
 }

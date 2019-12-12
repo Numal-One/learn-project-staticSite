@@ -49,6 +49,7 @@ width: 90px;
 
 .product-composition--open > .product-composition__details{
   display: flex;
+  animation: composition-scale forwards .2s ease-in-out;
 }
 
 .product-composition__details-itm{
@@ -105,3 +106,15 @@ color: green;
 font-weight: 300;
 }
 
+
+
+@keyframes composition-scale {
+  from {
+    transform: scale(0);
+    
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

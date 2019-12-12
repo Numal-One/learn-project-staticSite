@@ -45,7 +45,7 @@
   height: 100%;
   box-sizing:border-box;
   text-align: center;
-  padding: 45px 10px;
+  padding: 2.8125rem 0.625rem;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -59,9 +59,9 @@
 
 .reviews__head{
   font-family: Gagalin;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 28.11px;
+  line-height: 1.75rem;
   
 }
 
@@ -87,16 +87,16 @@
 .reviews__modal-heading{
   color: #2f3234;
   font-family: Gagalin;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 
 .reviews__modal-paragraph{
   color: #2f3234;
   font-family: Ubuntu;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .reviews__modal-close-wrapper{
@@ -114,17 +114,14 @@
   }
 
   .reviews__head{
-    
-    font-family: Gagalin;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 0.875rem;
   }
 
   .rewiews__paragraph{
     display: block;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 1.5rem;
   }
 
   .reviews__details-btn {
@@ -149,10 +146,4 @@
     
   }
 
-  .rewiews__paragraph{
-    display: block;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-  }
 }
