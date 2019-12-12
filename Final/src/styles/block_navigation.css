@@ -58,8 +58,48 @@
 .navigation__modal-menu{
   width: 100%;
   height: 100%;
-  background-color: grey;
+  background-color: #2f3234;
+  opacity: 0.99;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 20vh; */
 }
+
+.navigation-modal-menu-content{
+  border: none;
+  background-color: rgba(47, 50, 52,0);
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 96vh;
+}
+
+.navigation__list-itm--modal {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation__logo-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 19px;
+}
+
+.navigation__button-close-wrapper{
+  position: absolute;
+  top: 31px;
+  right: 10px;
+}
+
+
 
 @media screen and (min-width: 768px) {
   .navigation__list {

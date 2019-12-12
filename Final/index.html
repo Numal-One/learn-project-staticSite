@@ -31,23 +31,67 @@
   <title>Mr.Burger</title>
 </head>
 
-<div class="navigation__modal-menu modal fade" id="modal-menu">
+<div class="modal fade navigation__modal-menu" id="modal-menu">
   <div class="modal-dialog" role="document">
     <div class="modal-content navigation-modal-menu-content">
       <div class="navigation-modal-menu">
-          <ul class="navigation__list">
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> о&nbsp;нас</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> бургеры</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> команда</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> меню</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> отзывы</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> как&nbsp;мы&nbsp;работаем</a></li>
-          <li class="navigation__list-itm navigation__list-itm--last"><a href="#" class="navigation__list-anchor"> контакты</a></li>
-        </ul>
+          <ul class="navigation__list-modal">
+            <li class="navigation__list-itm navigation__list-itm--modal">
+              <a href="#we" class="navigation__list-anchor navigation__list-anchor--modal"> о&nbsp;нас</a>
+            </li>
+            <li class="navigation__list-itm navigation__list-itm--modal">
+              <a href="#burger" class="navigation__list-anchor navigation__list-anchor--modal"> бургеры</a>
+            </li>
+            <li class="navigation__list-itm navigation__list-itm--modal">
+              <a href="#team" class="navigation__list-anchor navigation__list-anchor--modal"> команда</a>
+            </li>
+            <li class="navigation__list-itm navigation__list-itm--modal">
+              <a href="#menu" class="navigation__list-anchor navigation__list-anchor--modal"> меню</a>
+            </li>
+            <li class="navigation__list-itm navigation__list-itm--modal">
+              <a href="#reviews" class="navigation__list-anchor navigation__list-anchor--modal"> отзывы</a>
+            </li>
+            <li class="navigation__list-itm navigation__list-itm--modal">
+              <a href="#how-work" class="navigation__list-anchor navigation__list-anchor--modal"> как&nbsp;мы&nbsp;работаем</a>
+            </li>
+            <li class="navigation__list-itm navigation__list-itm--modal navigation__list-itm--last">
+              <a href="#form" class="navigation__list-anchor navigation__list-anchor--modal"> контакты</a>
+            </li>
+          </ul>
       </div>
-      <button type="button" class="button" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+      <div class="navigation__logo-wrapper"><img src="src/img/we-make/logo.png" alt="logo" class="header__logo-img"></div>
+      <div class="navigation__button-close-wrapper">
+        <button type="button" class="button button--close" data-dismiss="modal" aria-label="Close">
+          <i class="icon-rounded_rectangle_1"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-send-form">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content form__send-modal-content">
+      <div class="form__send-modal-info">
+        <p class="form__send-modal-message">Сообщение отправлено</p>
+        <button type="button" class="button" data-dismiss="modal" aria-label="Close">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-review">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content reviews__modal-content">
+      <div class="reviews__modal-info">
+        <h3 class="reviews__modal-heading">Константин Спилберг</h3>
+        <p class="reviews__modal-paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным. Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+      </div>
+      <div class="reviews__modal-close-wrapper">
+        <button type="button" class="button button--close-orange" data-dismiss="modal" aria-label="Close">
+          <i class="icon-rounded_rectangle_1"></i>
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -70,13 +114,13 @@
       <div class="header__logo"><img src="src/img/we-make/logo.png" alt="logo" class="header__logo-img"></div>
       <nav class="navigation">
         <ul class="navigation__list">
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> о&nbsp;нас</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> бургеры</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> команда</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> меню</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> отзывы</a></li>
-          <li class="navigation__list-itm"><a href="#" class="navigation__list-anchor"> как&nbsp;мы&nbsp;работаем</a></li>
-          <li class="navigation__list-itm navigation__list-itm--last"><a href="#" class="navigation__list-anchor"> контакты</a></li>
+          <li class="navigation__list-itm"><a href="#we" class="navigation__list-anchor"> о&nbsp;нас</a></li>
+          <li class="navigation__list-itm"><a href="#burger" class="navigation__list-anchor"> бургеры</a></li>
+          <li class="navigation__list-itm"><a href="#team" class="navigation__list-anchor"> команда</a></li>
+          <li class="navigation__list-itm"><a href="#menu" class="navigation__list-anchor"> меню</a></li>
+          <li class="navigation__list-itm"><a href="#reviews" class="navigation__list-anchor"> отзывы</a></li>
+          <li class="navigation__list-itm"><a href="#how-work" class="navigation__list-anchor"> как&nbsp;мы&nbsp;работаем</a></li>
+          <li class="navigation__list-itm navigation__list-itm--last"><a href="#form" class="navigation__list-anchor">контакты</a></li>
         </ul>
       </nav>
       <a href="#" class="button button--anchor">заказать</a>
@@ -97,7 +141,7 @@
   </section>
 
   
-  <seciton class="we">
+  <seciton class="we" id="we">
     <h2 class="we__head">мы лучшие</h2>
     <div class="we__advantages">
       <setion class="we__advantage-container">
@@ -123,7 +167,7 @@
       </setion>
     </div>
   </seciton>
-  <section class="burger">
+  <section class="burger" id="burger">
     <div class="burger__slider">
       <div class="burger__slider-slide">
         <div class="burger__slide-pic">
@@ -151,10 +195,49 @@
         </div>
         <div class="burger__product-composition-wrapper">
           <div class="product-composition">
+            
             <a href="#" class="product-composition__link">
-              <i class="product-composition__icon icon-buns"></i>
+              <i class="product-composition__icon icon-burger"></i>
               <span class="product-composition__text">состав</span>
             </a>
+            
+            <div class="product-composition__details">
+              <div class="product-composition__details-itm">
+                <i class="product-composition__details-ico icon-beef"></i>
+                <p class="product-composition__details-name">Говядина</p>
+                <p class="product-composition__details-weight">300 г</p>
+              </div>
+              <div class="product-composition__details-itm">
+                <i class="product-composition__details-ico icon-buns"></i>
+                <p class="product-composition__details-name">Булочки</p>
+                <p class="product-composition__details-weight">100 г</p>
+              </div>
+              <div class="product-composition__details-itm">
+                <i class="product-composition__details-ico icon-salad"></i>
+                <p class="product-composition__details-name">Зелень</p>
+                <p class="product-composition__details-weight">70 г</p>
+              </div>
+              <div class="product-composition__details-itm">
+                <i class="product-composition__details-ico icon-sauce"></i>
+                <p class="product-composition__details-name">Соус</p>
+                <p class="product-composition__details-weight">150 г</p>
+              </div>
+              <div class="product-composition__details-itm">
+                <i class="product-composition__details-ico icon-cucumber"></i>
+                <p class="product-composition__details-name ">Овощи</p>
+                <p class="product-composition__details-weight">200 г</p>
+              </div>
+              <div class="product-composition__details-itm">
+                <i class="product-composition__details-ico icon-cheese"></i>
+                <p class="product-composition__details-name">Сыр</p>
+                <p class="product-composition__details-weight">80 г</p>
+              </div>
+              <div class="product-composition__close-wrapper">
+                <button type="button" class="button button--close-orange">
+                  <i class="icon-rounded_rectangle_1"></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -162,7 +245,7 @@
       <div class="burger__slider-back"><i class="burger__back-icon icon-arrow-scroll"></i></div>
     </div>
   </section>
-  <section class="team">
+  <section class="team" id="team">
     <div class="team__members-wrapper">
       <h2 class="team__head">команда</h2>
       <div class="team__members">
@@ -176,7 +259,7 @@
             </div>
           </div>
         </section>
-        <section class="team__member">
+        <section class="team__member" id="team">
           <h3 class="team__member-head">Ричард Джеймс</h3>
           <div class="team__member-cart">
             <img src="https://picsum.photos/100?random=2" alt="team-member" class="team__member-img">
@@ -210,7 +293,7 @@
     </div>
   </section>
 
-  <section class="menu">
+  <section class="menu" id="menu">
     <h2 class="menu__head">Меню</h2>
     <div class="menu__items-wrapper">
 
@@ -252,79 +335,79 @@
 
     </div>
   </section>
-  <section class="reviews">
+  <section class="reviews" id="reviews">
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn"  data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
     <section class="reviews__itm-wrapper">
       <div class="reviews__itm">
         <h3 class="reviews__head">Константин Спилберг</h3>
         <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-        <a href="" class="button button--anchor button--gray reviews__details-btn">подробнее</a>
-        <a href="" class="button button--anchor button--gray reviews__read-btn">читать отзыв</a>
+        <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+        <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
      </div>
     </section>
   </section>
 
-  <section class="how-work">
+  <section class="how-work" id="how-work">
     <h2 class="how-work__head">Как мы работаем</h2>
     <iframe class="how-work__video"  src="https://www.youtube.com/embed/zD-0y4sTx9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
 
-  <section class="delivery-order">
+  <section class="delivery-order" id="form">
     <h2 class="delivery-order__head">Закажите доставку</h2>
     <form action="" class="form" method="GET">
       <section class="form__left">
@@ -360,7 +443,7 @@
     </form>
   </section>
 
-  <section class="map">
+  <section class="map" id="map">
 
   </section>
 
