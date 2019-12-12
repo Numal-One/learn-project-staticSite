@@ -1,0 +1,377 @@
+
+.we-make {
+  background-image: url(../img/we-make/background-we-make.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* .we-make__info {
+  max-width: calc(100% - 1rem);
+} */
+
+.we-make__info-img {
+  max-width: calc(100% - 0.5rem);
+}
+
+.we-make__info-head {
+  color: #f9b43b;
+  font-family: "Gagalin";
+  font-size: 3.8rem;
+}
+
+.we-make__info-paragraph{
+  font-family: "LifeHack-medium";
+  font-size: 3.2125rem;
+}
+
+.we-make__scroll-arrow {
+  cursor: pointer;
+}
+
+
+.header {
+  padding-top: 0.75rem;
+  width: calc(100% - 2.5rem);
+  margin:0 auto;
+}
+
+
+.header__logo {
+  height: 69px;
+  width: 92px;
+}
+
+.header__logo-img {
+  max-width: 100%;
+}
+
+.navigation__list {
+  list-style: none;
+  /* max-width: 37rem; */
+}
+
+.navigation__list-anchor{
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition-property: color;
+  transition-duration: .2s;
+  transition-timing-function: ease;
+}
+
+.navigation__list-anchor:hover {
+  color: #e45028;
+}
+
+.we {
+  background-image: url(../img/we/we-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+  
+}
+
+.we__head {
+  color: #2f3234;
+  font-family: 'Gagalin';
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.we__advantage-head {
+  color: #2f3234;
+  font-family: 'LifeHack-medium';
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.we__advantage-description{
+  opacity: 0.8;
+  color: #2f3234;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+
+.icon-meat {
+  font-size: 4.25rem;
+  color: red;
+}
+
+.icon-hand {
+  font-size: 4.25rem;
+  color: orange;
+}
+
+.icon-natural {
+  font-size: 4.25rem;
+  color:green;
+}
+
+
+.burger {
+  background-image: url(../img/burger/burger-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+  
+}
+
+
+.burger__slider-slide {
+  position: relative;
+}
+
+.burger__slide-pic{
+  width: 90%;
+}
+
+.burger__slide-img{
+  width: 100%;
+
+}
+
+.burger__slide-head {
+  font-family: Gagalin;
+  font-size: 3.125rem;
+  font-weight: 400;
+}
+
+.burger__slide-description{
+  font-family: Ubuntu;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.burger__slide-price{
+  margin-right: 1.875rem;
+}
+
+.burger__slide-price-number,
+.burger__slide-price-rub{
+  color: #e35028;
+  font-family: Gagalin;
+  font-weight: 400;
+}
+
+.burger__slide-price-number{
+  font-size: 3.125rem;
+  letter-spacing: -1.25px;
+}
+
+.burger__slide-price-rub{
+  font-size: 1.875rem;
+  letter-spacing: -0.046rem;
+}
+
+
+.burger__product-composition-wrapper{
+  position: absolute;
+  top: 0.625rem;
+  left: 0.625rem;
+}
+
+.burger__product-calories-wrapper{
+  position: absolute;
+  top: 0.675rem;
+  left: calc(100% - 100px);
+}
+
+/* ========TEAM========== */
+
+
+.team {
+  background-image: url(../img/team/team-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.team__members-wrapper{
+  background-color: #2f3234;
+  opacity: 0.93;
+}
+
+.team__head{
+  color: #f9b43b;
+  font-family: Gagalin;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.team__member-head{
+  cursor: pointer;
+  font-family: Gagalin;
+  font-size: 1.5625rem;
+  font-weight: 400;
+}
+
+.team__member-img {
+  border-radius: 50%;
+}
+
+.team__member-info{
+  margin-top: 1rem;
+} 
+
+.team__member-position,
+.team__member-desctiption{
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.team__member-position{
+  font-weight: 700;
+}
+
+.team__member-desctiption{
+  font-weight: 300;
+}
+
+.team__member-head::before,
+.team__member-head::before{
+  font-size: 1rem;
+  position: relative;
+  right:0.625rem;
+  bottom: 0.1875rem;
+}
+
+.team__member-head::before {
+  content: '\25BC';
+}
+
+.team__member--opened>.team__member-head::before{
+  content: '\25B2';
+  color: #f9b43b;
+}
+
+.team__member--opened .team__member-head{
+  color: #f9b43b;
+}
+
+.team__member--opened .team__member-cart{
+  display: flex;
+  animation: team-scale forwards .2s ease-in-out;
+}
+
+
+/* =================MENU============== */
+
+.menu {
+  background-image: url(../img/menu/menu-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+  
+  z-index: 0;
+}
+
+
+
+.menu__head {
+  position: absolute;
+  font-family: Gagalin;
+  font-size: 4.5rem;
+  font-weight: 400;
+  left: 1.875rem;
+  top: 6.25rem;
+  z-index: 1;
+}
+
+.menu__item:nth-child(1) .menu__item-head-cont{
+  background-image: url(../img/menu/menu-1.png);
+}
+
+.menu__item:nth-child(2) .menu__item-head-cont{
+  background-image: url(../img/menu/menu-2.png);
+}
+
+.menu__item:nth-child(3) .menu__item-head-cont{
+  background-image: url(../img/menu/menu-3.png);
+}
+
+.menu__item{
+  background-position: 50%;
+  background-size: cover;
+  z-index: 3;
+  
+}
+
+.menu__item-head {
+  font-family: Gagalin;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.menu__item-head {
+  left: 0;
+  top: 70vh;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+}
+
+/* ====================REVIEWS=============== */
+
+
+.reviews {
+  min-height: 100vh;
+  background-color: gray;
+}
+
+.reviews__itm-wrapper{
+  background-position: 50%;
+  background-size: cover;
+  height: auto;
+  width: 50%;
+}
+
+.reviews__itm-wrapper:nth-child(1){
+  background-image: url(../img/reviews/review-background-1.png);
+}
+.reviews__itm-wrapper:nth-child(2){
+  background-image: url(../img/reviews/review-background-2.png);
+}
+.reviews__itm-wrapper:nth-child(3){
+  background-image: url(../img/reviews/review-background-3.png);
+}
+.reviews__itm-wrapper:nth-child(4){
+  background-image: url(../img/reviews/review-background-4.png);
+}
+.reviews__itm-wrapper:nth-child(5){
+  background-image: url(../img/reviews/review-background-5.png);
+}
+.reviews__itm-wrapper:nth-child(6){
+  background-image: url(../img/reviews/review-background-6.png);
+}
+.reviews__itm-wrapper:nth-child(7){
+  background-image: url(../img/reviews/review-background-7.png);
+}
+.reviews__itm-wrapper:nth-child(8){
+  background-image: url(../img/reviews/review-background-8.png);
+}
+
+
+.reviews__itm {
+  background-color: rgba(90,90,90,.5);
+  padding: 2.8125rem 0.625rem;
+  opacity: 0;
+  transition: opacity ease .3s;
+  top: 0;
+}
+
+.reviews__itm-wrapper:hover .reviews__itm{
+  opacity: 1;
+}
+
+.reviews__head{
+  font-family: Gagalin;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  
+}
+
+
