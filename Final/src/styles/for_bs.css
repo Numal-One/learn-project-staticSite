@@ -17,12 +17,12 @@
 .we-make__info-head {
   color: #f9b43b;
   font-family: "Gagalin";
-  font-size: 3.8rem;
+  font-size: 3.5rem;
 }
 
 .we-make__info-paragraph{
   font-family: "LifeHack-medium";
-  font-size: 3.2125rem;
+  font-size: 3rem;
 }
 
 .we-make__scroll-arrow {
@@ -372,6 +372,100 @@
   font-weight: 400;
   line-height: 1.75rem;
   
+}
+
+/* ===========HOW WORK(VIDEO)========= */
+
+
+.how-work {
+  background-image: url(../img/how-work/how-work-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+ 
+}
+
+.how-work__head {
+  color: #2f3234;
+  font-family: Gagalin;
+  font-size: 3.8125rem;
+  font-weight: 400;
+}
+
+.how-work__video {
+  margin-top: 3.125rem;
+  width: 80%;
+  height: 40vh;
+}
+
+
+/* ===========delivery============ */
+
+.delivery-order {
+  background-image: url(../img/delivery-order/delivery-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+  
+}
+
+.delivery-order__head{
+  color: #f9b43b;
+  font-family: Gagalin;
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+}
+
+.delivery-order label {
+  font-size: 13px;
+}
+
+/* ===========FOOTER============= */
+
+.footer {
+  background-image: url(../img/footer/footer-background.png);
+  background-position: 50%;
+  background-size: cover;
+  min-height: 116px;
+  
+}
+
+
+
+.footer__address{
+  font-family: Ubuntu;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.footer__social-link{
+    color: white;
+    opacity: .3;
+}
+
+.footer__social-link:nth-child(1){
+    margin-right: 1.25rem;
+}
+
+.footer__social-link:hover{
+    opacity: 1;
+    color: white;
+}
+
+
+/* ============CONTACT PHONE========= */
+
+.contact-phone__number{
+  color: #e45028;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.contact-phone__number:hover{
+  color: white;
+  text-decoration: none;
 }
 
 

@@ -26,72 +26,90 @@
   <!-- <link rel="stylesheet" href="src/styles/block_contact-phone.css"> -->
   <!-- <link rel="stylesheet" href="src/styles/block_delivery-order.css"> -->
   <!-- <link rel="stylesheet" href="src/styles/block_form.css"> -->
-  <!-- <link rel="stylesheet" href="src/styles/block_map.css"> -->
+  <link rel="stylesheet" href="src/styles/block_map.css">
   <!-- <link rel="stylesheet" href="src/styles/block_footer.css"> -->
   
   <title>Mr.Burger</title>
 </head>
 <body>
-  <div class="we-make container-fluid">
-    <div class="row  justify-content-between">
 
-    <header class="header col-12 justify-content-center">
-      <div class="row flex-grow-1 justify-content-between">
-
-        <div class="header__logo col-lg-auto col-auto"><img src="src/img/we-make/logo.png" alt="logo" class="header__logo-img"></div>
-        <nav class="navigation col-auto">
-          <ul class="navigation__list row d-md-none d-lg-flex">
-            <li class="navigation__list-itm col-auto"><a href="#we" class="navigation__list-anchor"> о&nbsp;нас</a></li>
-            <li class="navigation__list-itm col-auto"><a href="#burger" class="navigation__list-anchor"> бургеры</a></li>
-            <li class="navigation__list-itm col-auto"><a href="#team" class="navigation__list-anchor"> команда</a></li>
-            <li class="navigation__list-itm col-auto"><a href="#menu" class="navigation__list-anchor"> меню</a></li>
-            <li class="navigation__list-itm col-auto"><a href="#reviews" class="navigation__list-anchor"> отзывы</a></li>
-            <li class="navigation__list-itm col-auto"><a href="#how-work" class="navigation__list-anchor"> как&nbsp;мы&nbsp;работаем</a></li>
-            <li class="navigation__list-itm navigation__list-itm col-auto"><a href="#form" class="navigation__list-anchor">контакты</a></li>
-          </ul>
-        </nav>
-        <div class="col-auto">
-          <div class="row">
-              <div class="button-wrapper col-auto">
-                <div class="col-6">
-                  <a href="#" class="button button--anchor">заказать</a>
-                </div>
-                  <div class="burger-menu col-6" data-toggle="modal" data-target="#modal-menu">
-                    <!-- <i class="icon-bars-solid"></i> -->
-                  </div>
-                </div>  
+  <!-- =====================WE MAKE============================ -->
+<div class="container-fluid we-make d-flex flex-column">
+  <div class="row d-flex flex-column justify-content-between flex-grow-1">
+    <div class="col-auto">
+      <!-- header -->
+      <div class="row mt-4 justify-content-between">
+        <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+          <!-- logo -->
+          <div class="header__logo col-lg-auto col-auto"><img src="src/img/we-make/logo.png" alt="logo" class="header__logo-img"></div>
+        </div>
+        <div class="col-auto flex-lg-grow-0 flex-md-grow-1">
+          <!-- navigation -->
+          <div class="row justify-content-between d-none d-sm-none d-md-flex d-lg-flex">
+            <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+              <a href="#we" class="navigation__list-anchor"> о&nbsp;нас</a>
+            </div>
+            <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+              <a href="#burger" class="navigation__list-anchor"> бургеры</a>
+            </div>
+            <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+              <a href="#team" class="navigation__list-anchor"> команда</a>
+            </div>
+            <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+              <a href="#menu" class="navigation__list-anchor"> меню</a>
+            </div>
+            <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+              <a href="#reviews" class="navigation__list-anchor"> отзывы</a>
+            </div>
+            <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+              <a href="#how-work" class="navigation__list-anchor"> как&nbsp;мы&nbsp;работаем</a>
+            </div>
+            <div class="col-auto pl-md-1 pl-sm-1 pl-lg-3 pl-1 pr-md-1 pr-sm-1 pr-lg-3 pr-1">
+              <a href="#form" class="navigation__list-anchor">контакты</a>
+            </div>
           </div>
         </div>
-        
-      
-      </div>
-    </header>
-  </div>
-    
-    <div class="row d-flex flex-grow-1 mr-0 pr-0 flex-grow-1 flex-column">
-      <div class="col d-flex flex-column justify-content-between flex-grow-1">
-        
-        <div class="we-make__info row justify-content-center align-center mt-5 pt-5 flex-lg-grow-1">
-          <div class="we-make__info-left col-lg-6 col-md-12 text-md-center text-sm-center text-lg-right">
-            <img src="src/img//we-make/burger-we-make.png" alt="burger" class="we-make__info-img ">
-          </div>
-          <div class="we-make__info-right col-lg-6 col-md-12  align-self-center">
-            <h2 class="we-make__info-head col-12 text-md-center text-sm-center text-lg-left">мы&nbsp;делаем</h2>
-            <p class="we-make__info-paragraph col-12 text-md-center text-sm-center text-lg-left">натуральные<br>бургеры</p>
-          </div>
+        <div class="col-auto  pl-md-1 pl-sm-3 pl-lg-3 pl-3 pr-md-1 pr-sm-3 pr-lg-3 pr-3">
+          <!-- button -->
+          <button class="button">Заказать</button>
         </div>
-
-        <div class="row">
-          <div class="we-make__scroll-container col-12 text-center">
-            <i class="we-make__scroll-arrow icon-arrow-scroll"></i>
-          </div>
-        </div>
-        
       </div>
     </div>
- 
+    <div class="col-auto d-flex flex-grow-1 align-items-center justify-content-center pb-5">
+      <!-- we make -->
+      <div class="row align-items-center justify-content-center align-self-center flex-lg-row flex-md-row flex-sm-column flex-column">
+        <div class="col-auto">
+          <!-- left -->
+          <div class="row">
+            <div class="col pr-lg-4 pr-md-1 pr-sm-2 pr-2 pl-lg-4 pl-md-1 pl-sm-2 pl-2 d-flex align-self-center justify-content-center">
+              <!-- img -->
+              <img src="src/img//we-make/burger-we-make.png" alt="burger" class="we-make__info-img">
+            </div>
+          </div>
+        </div>
+        <div class="col-auto pr-lg-4 pr-md-1 pr-sm-2 pr-2 pl-lg-4 pl-md-1 pl-sm-2 pl-2"> 
+          <!-- right -->
+          <div class="row d-flex flex-column mt-5">
+            <div class="col pr-lg-4 pr-md-1 pr-sm-2 pr-2 pl-lg-4 pl-md-1 pl-sm-2 pl-2">
+              <!-- head -->
+              <h2 class="we-make__info-head text-lg-left text-md-left text-sm-center text-center pr-lg-4 pr-md-1 pr-sm-2 pr-2 pl-lg-4 pl-md-1 pl-sm-2 pl-2">мы&nbsp;делаем</h2>
+            </div>
+            <div class="col pr-lg-4 pr-md-1 pr-sm-2 pr-2 pl-lg-4 pl-md-1 pl-sm-2 pl-2">
+              <!-- paragraph -->
+              <p class="we-make__info-paragraph text-lg-left text-md-left text-sm-center text-center pr-lg-4 pr-md-1 pr-sm-2 pr-2 pl-lg-4 pl-md-1 pl-sm-2 pl-2">натуральные<br>бургеры</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto pb-3">
+      <!-- scroll btn -->
+      <div class="we-make__scroll-container text-center"><i class="we-make__scroll-arrow icon-arrow-scroll"></i></div>
+    </div>
   </div>
+</div>
 
+ 
   <!-- ==============================WE============================== -->
   
   <div class="we container-fluid d-flex flex-column justify-content-center align-items-center mw-100 " id="we">
@@ -380,10 +398,18 @@
           <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
         <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
+          </div>
         </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -397,10 +423,18 @@
           <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
         <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
+          </div>
         </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -414,10 +448,43 @@
           <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
         <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
+          </div>
         </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-12 col-sm-6 col-md-6 col-lg-3 reviews__itm-wrapper">
+      <div class="row reviews__itm h-100">
+        <div class="col">
+           <h3 class="reviews__head text-center text-sm-center text-md-left text-lg-left">Валентин Спилберг</h3>
+          </div>
+        <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex"> 
+          <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+        </div>
+        <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -431,10 +498,18 @@
           <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
         <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
+          </div>
         </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -448,10 +523,18 @@
           <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
         <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
+          </div>
         </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -465,10 +548,18 @@
           <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
         <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
+          </div>
         </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -482,27 +573,18 @@
           <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
         <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
-        </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
-        </div>
-      </div>
-      
-    </div>
-    <div class="col-12 col-sm-6 col-md-6 col-lg-3 reviews__itm-wrapper">
-      <div class="row reviews__itm h-100">
-        <div class="col">
-           <h3 class="reviews__head text-center text-sm-center text-md-left text-lg-left">Константин Спилберг</h3>
+          <div class="row">
+            <div class="col">
+              <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
+            </div>
           </div>
-        <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex"> 
-          <p class="rewiews__paragraph">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
         </div>
-        <div class="col-12 d-none d-sm-flex d-md-flex d-lg-flex">
-            <a href="" class="button button--anchor button--gray reviews__details-btn" data-toggle="modal" data-target="#modal-review">подробнее</a>
-        </div>
-        <div class="col-12 d-flex d-sm-none d-md-none d-lg-none justify-content-center">
-            <a href="" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+        <div class="col-12  d-flex d-sm-none d-md-none d-lg-none justify-content-start">
+          <div class="row w-100">
+            <div class="col text-center mt-5 pt-5">
+              <a href="#" class="button button--anchor button--gray reviews__read-btn" data-toggle="modal" data-target="#modal-review">читать отзыв</a>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -511,72 +593,196 @@
 </div>
 
 
-  <!-- =============================================================== -->
-  
-  -12 col-sm-6 col-md-3 col-md-3
 
-  <!-- ==============================HOW============================== -->
 
-  <section class="how-work" id="how-work">
-    <h2 class="how-work__head">Как мы работаем</h2>
-    <iframe class="how-work__video"  src="https://www.youtube.com/embed/zD-0y4sTx9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </section>
+<!-- ==============================HOW============================== -->
 
-  <section class="delivery-order" id="form">
-    <h2 class="delivery-order__head">Закажите доставку</h2>
-    <form action="" class="form" method="GET">
-      <section class="form__left">
-        <label class="form__label form__label-name">Имя<input class="form__input form__input-name" name = "name" type="text" required></label>
-        <label class="form__label form__label-phone">Телефон<input class="form__input form__input-phone" name = "phone" type="text" required></label>
-        <label class="form__label form__label-street">Улица<input class="form__input form__input-street" name = "street" type="text" required></label>
-        <label class="form__label form__label-house">Дом<input class="form__input form__input-house" name = "house" type="text" required></label>
-        <label class="form__label form__label-housing">Корпус<input class="form__input form__input-housing" name = "housing" type="text" required></label>
-        <label class="form__label form__label-apartament">Квартира<input class="form__input form__input-apartament" name = "apartament" type="text" required></label>
-        <label class="form__label form__label-floor">Этаж<input class="form__input form__input-floor" name = "floor" type="text" required></label>
-      </section>
-      <section class="form__right">
-        <label class="form__label form__label-comment">Комментарий<textarea class="form__input form__input-comment" name="comment" id="" cols="30" rows="10"></textarea></label>
-        <div class="form__payment-wrapper">
-          <label class="form__label form__label-card-pay">
-            <input class="form__input form__radio-card-pay" name = "payment" type="radio" value = 'card' required>
-            <div class="form__radio-label-text">Оплата&nbsp;по&nbsp;карте</div>
-          </label>
-          <label class="form__label form__label-cash-pay">
-            <input class="form__input form__radio-cash-pay" name = "payment" type="radio" value = 'cash' required>
-            <div class="form__radio-label-text">Потребуется&nbsp;сдача</div>
-          </label>
+<div class="container-fluid how-work d-flex flex-column justify-content-around" id="how-work">
+  <div class="row">
+    <div class="col text-center">
+      <h2 class="how-work__head">Как мы работаем</h2>
+    </div>
+  </div>
+  <div class="row">
+<div class="col text-center h-100">
+  <iframe class="how-work__video"  src="https://www.youtube.com/embed/zD-0y4sTx9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+  </div>
+</div>
+
+
+<!-- =============================FORM================================== -->
+  <div class="container-fluid delivery-order justify-content-center d-flex flex-column align-center" id="form">
+    <div class="row">
+      <div class="col mt-5">
+        <!-- head -->
+        <h2 class="delivery-order__head text-center">Закажите доставку</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center align-self-center">
+      <form class="col d-sm-flex">
+        <!-- form -->
+        <div class="row justify-content-center" >
+          <div class="col-lg-8 col-md-10 col-sm-6 col-6">
+            <!-- leftwrap -->
+            <div class="row">
+              <!-- left -->
+              <div class="col">
+    
+                <div class="row">
+                  <!-- name and phone -->
+                  <div class="col form-group">
+                    <!-- name -->
+                    <label for ="f-name">Имя</label>
+                    <input id="f-name" class="form-control" name = "name" type="text" required>
+                  </div>
+                  <div class="col  form-group">
+                    <!-- phone -->
+                    <label for ="f-phone">Телефон</label>
+                    <input id="f-phone" class="form-control" name = "phone" type="text" required>
+                  </div>
+                </div>
+                
+    
+                <div class="row">
+                  <div class="col">
+                    <!-- street -->
+                    <label for ="f-street">Улица</label>
+                    <input id="f-street" class="form-control" name = "street" type="text" required>
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <!-- house and other -->
+                  <div class="col-3 form-group pr-sm-1 ">
+                    <label for ="f-house">Дом</label>
+                    <input id="f-house" class="form-control" name = "house" type="text" required>
+                  </div>
+                  
+                  <div class="col-3 form-group pr-sm-1">
+                    <label for ="f-housing">Корпус</label>
+                    <input id="f-housing" class="form-control" name = "housing" type="text" required>
+                  </div>
+                 
+                  <div class="col-3  form-group pr-sm-1">
+                    <label for ="f-floor">Этаж</label>
+                    <input id="f-floor" class="form-control" name = "floor" type="text" required>
+                  </div>
+                 
+                  <div class="col-3 form-group">
+                    <label for ="f-apartament">Квартира</label>
+                    <input id="f-apartament" class="form-control" name = "apartament" type="text" required>
+                  </div>
+                
+                </div>
+    
+    
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-10 col-sm-6 col-6">
+            <!-- rightwrap -->
+            <div class="row">
+              <!-- right -->
+              <div class="col">
+                <div class="row">
+                  <div class="col form-group">
+                    <!-- comment -->
+                    <label for ="f-comment">Комментарий</label>
+                    <textarea id="f-comment" class="form-control" name = "comment" type="textarea" required rows="4"></textarea>
+                  </div>
+                </div>
+                <div class="row mt-1">
+    
+                  <!-- radio group -->
+                  <div class="col-4 ml-3 form-check">
+                    <!-- cash -->
+                    <input class="form-check-input" type="radio" name="radio-payment" id="f-radio-cash" value="cash">
+                    <label class="form-check-label" for="f-radio-cash">Потребуется сдача</label>
+                  </div>
+    
+                  <div class="col-4 pl-3 form-check">
+                    <!-- card -->
+                    <input class="form-check-input" type="radio" name="radio-payment" id="f-radio-card" value="card">
+                    <label class="form-check-label" for="f-radio-card">Оплата картой</label>
+                  </div>
+    
+                </div>
+    
+                <div class="row mt-2">
+                  <div class="cal form-check form-check-inline ml-3">
+                    <!-- checkbox -->
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Не перезванивать</label>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <!-- button group -->
+                  <div class="col-auto">
+                    <!-- order -->
+                    <button type="submit" class="button">Заказать</button>
+                  </div>
+                  <div class="col-auto">
+                    <!-- clear -->
+                    <button type="clear" class="button button--clear">Очистить</button>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
         </div>
-        <label class="form__label form__label-recall">
-          <input class="form__input form__checkbox-recall" name = "noRecall" type="checkbox">
-          <div class="form__checkbox-label-text"> Не&nbsp;перезванивать</div>
-        </label>
-        <div class="form__button-wrapper">
-          <button type="submit" class="button" data-toggle="modal" data-target="#modal-send-form">Заказать</button>
-          <button type="reset" class="button button--clear" >Очистить</button>
-        </div>
-      </section>
-    </form>
-  </section>
+
+      </form>
+    </div>
+
+  </div>
+
+<!-- ===========================MAP==================================== -->
 
   <section class="map" id="map">
 
   </section>
 
 <!-- ==============================FOOTER============================== -->
-  <footer class="footer">
-    <div class="footer__info">
-      <p class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</p>
-      <div class="contact-phone">
-        <a href="#" class="contact-phone__number"><i class="contact-phone__ico icon-phone"></i>+7&nbsp;(812)&nbsp;377-13-77</a>
+<div class="container-fluid footer">
+  <div class="row pt-3 pb-3  align-center justify-content-around flex-lg-row flex-md-row flex-sm-column flex-column">
+    <div class="col-auto">
+      <!-- left -->
+      <div class="row justify-content-lg-start justify-content-md-start justify-content-sm-center justify-content-center">
+        <!-- address -->
+        <p class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</p>
+      </div>
+      <div class="row justify-content-lg-start justify-content-md-start justify-content-sm-center justify-content-center">
+        <!-- phone -->
+        <div class="contact-phone">
+          <a href="#" class="contact-phone__number "><i class="contact-phone__ico icon-phone"></i>+7&nbsp;(812)&nbsp;377-13-77</a>
+        </div>
       </div>
     </div>
-    <div class="footer__socials">
-      <a href="#" class="footer__social-link"><i class="footer__social-ico icon-vk"></i></a>
-      <a href="#" class="footer__social-link"><i class="footer__social-ico icon-fb"></i></a>
-      <a href="#" class="footer__social-link"><i class="footer__social-ico icon-inst"></i></a>
-      <a href="#" class="footer__social-link"><i class="footer__social-ico icon-twitter"></i></a>
+    <div class="col-auto d-flex align-center justify-content-center">
+      <!-- right -->
+      <div class="row align-self-center mt-2">
+        <!-- social -->
+        <div class="col-auto">
+          <a href="#" class="footer__social-link"><i class="footer__social-ico icon-vk"></i></a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="footer__social-link"><i class="footer__social-ico icon-fb"></i></a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="footer__social-link"><i class="footer__social-ico icon-inst"></i></a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="footer__social-link"><i class="footer__social-ico icon-twitter"></i></a>
+        </div>
+      </div>
     </div>
-  </footer>
+  </div>
+</div>
+
+<!-- ============================================================ -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
